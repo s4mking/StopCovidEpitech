@@ -13,6 +13,16 @@
 		7EDF7C652535EA6B00191510 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EDF7C632535EA6B00191510 /* Main.storyboard */; };
 		7EDF7C672535EA6D00191510 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EDF7C662535EA6D00191510 /* Assets.xcassets */; };
 		7EDF7C6A2535EA6D00191510 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EDF7C682535EA6D00191510 /* LaunchScreen.storyboard */; };
+		7EDF7C742535EE7A00191510 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDF7C732535EE7A00191510 /* LoginViewController.swift */; };
+		7EDF7C772535EF1D00191510 /* InscriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDF7C762535EF1D00191510 /* InscriptionViewController.swift */; };
+		7EDF7C7B2535F1BC00191510 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDF7C7A2535F1BC00191510 /* DashboardViewController.swift */; };
+		7EDF7C7E2535F4C600191510 /* StoryboardConnected.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EDF7C7D2535F4C600191510 /* StoryboardConnected.storyboard */; };
+		7EDF7C812535F59600191510 /* QRCodeGeneratorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDF7C802535F59600191510 /* QRCodeGeneratorViewController.swift */; };
+		7EDF7C842535F5B000191510 /* QRCodeDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDF7C832535F5B000191510 /* QRCodeDisplayViewController.swift */; };
+		7EDF7C872535F64C00191510 /* StateCovidViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDF7C862535F64C00191510 /* StateCovidViewController.swift */; };
+		7EDF7C8A2535F68C00191510 /* DepistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDF7C892535F68C00191510 /* DepistViewController.swift */; };
+		7EDF7C8D2535F6A400191510 /* CodeCovidViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDF7C8C2535F6A400191510 /* CodeCovidViewController.swift */; };
+		7EDF7C902535F77600191510 /* SymptomesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDF7C8F2535F77600191510 /* SymptomesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +34,16 @@
 		7EDF7C662535EA6D00191510 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7EDF7C692535EA6D00191510 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7EDF7C6B2535EA6D00191510 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EDF7C732535EE7A00191510 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		7EDF7C762535EF1D00191510 /* InscriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InscriptionViewController.swift; sourceTree = "<group>"; };
+		7EDF7C7A2535F1BC00191510 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		7EDF7C7D2535F4C600191510 /* StoryboardConnected.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StoryboardConnected.storyboard; sourceTree = "<group>"; };
+		7EDF7C802535F59600191510 /* QRCodeGeneratorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeGeneratorViewController.swift; sourceTree = "<group>"; };
+		7EDF7C832535F5B000191510 /* QRCodeDisplayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeDisplayViewController.swift; sourceTree = "<group>"; };
+		7EDF7C862535F64C00191510 /* StateCovidViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateCovidViewController.swift; sourceTree = "<group>"; };
+		7EDF7C892535F68C00191510 /* DepistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepistViewController.swift; sourceTree = "<group>"; };
+		7EDF7C8C2535F6A400191510 /* CodeCovidViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeCovidViewController.swift; sourceTree = "<group>"; };
+		7EDF7C8F2535F77600191510 /* SymptomesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymptomesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +79,20 @@
 				7EDF7C5D2535EA6B00191510 /* AppDelegate.swift */,
 				7EDF7C5F2535EA6B00191510 /* SceneDelegate.swift */,
 				7EDF7C612535EA6B00191510 /* FirstVisit.swift */,
+				7EDF7C732535EE7A00191510 /* LoginViewController.swift */,
+				7EDF7C762535EF1D00191510 /* InscriptionViewController.swift */,
 				7EDF7C632535EA6B00191510 /* Main.storyboard */,
+				7EDF7C7D2535F4C600191510 /* StoryboardConnected.storyboard */,
+				7EDF7C8F2535F77600191510 /* SymptomesViewController.swift */,
+				7EDF7C862535F64C00191510 /* StateCovidViewController.swift */,
+				7EDF7C892535F68C00191510 /* DepistViewController.swift */,
+				7EDF7C8C2535F6A400191510 /* CodeCovidViewController.swift */,
+				7EDF7C7A2535F1BC00191510 /* DashboardViewController.swift */,
 				7EDF7C662535EA6D00191510 /* Assets.xcassets */,
 				7EDF7C682535EA6D00191510 /* LaunchScreen.storyboard */,
 				7EDF7C6B2535EA6D00191510 /* Info.plist */,
+				7EDF7C802535F59600191510 /* QRCodeGeneratorViewController.swift */,
+				7EDF7C832535F5B000191510 /* QRCodeDisplayViewController.swift */,
 			);
 			path = StopCovidEpitech;
 			sourceTree = "<group>";
@@ -125,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7EDF7C6A2535EA6D00191510 /* LaunchScreen.storyboard in Resources */,
+				7EDF7C7E2535F4C600191510 /* StoryboardConnected.storyboard in Resources */,
 				7EDF7C672535EA6D00191510 /* Assets.xcassets in Resources */,
 				7EDF7C652535EA6B00191510 /* Main.storyboard in Resources */,
 			);
@@ -137,7 +168,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EDF7C742535EE7A00191510 /* LoginViewController.swift in Sources */,
+				7EDF7C812535F59600191510 /* QRCodeGeneratorViewController.swift in Sources */,
+				7EDF7C7B2535F1BC00191510 /* DashboardViewController.swift in Sources */,
+				7EDF7C772535EF1D00191510 /* InscriptionViewController.swift in Sources */,
 				7EDF7C622535EA6B00191510 /* FirstVisit.swift in Sources */,
+				7EDF7C8A2535F68C00191510 /* DepistViewController.swift in Sources */,
+				7EDF7C842535F5B000191510 /* QRCodeDisplayViewController.swift in Sources */,
+				7EDF7C8D2535F6A400191510 /* CodeCovidViewController.swift in Sources */,
+				7EDF7C902535F77600191510 /* SymptomesViewController.swift in Sources */,
+				7EDF7C872535F64C00191510 /* StateCovidViewController.swift in Sources */,
 				7EDF7C5E2535EA6B00191510 /* AppDelegate.swift in Sources */,
 				7EDF7C602535EA6B00191510 /* SceneDelegate.swift in Sources */,
 			);

@@ -13,11 +13,14 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="FirstVisit" customModule="StopCovidEpitech" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <segue destination="IUZ-W4-0Xy" kind="presentation" id="7OB-uo-kVG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -28,11 +31,14 @@
             <objects>
                 <viewController id="IUZ-W4-0Xy" customClass="FirstVisit" customModule="StopCovidEpitech" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="v3L-cZ-EJf">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="0f8-Xd-DFa"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <segue destination="68G-nb-KzS" kind="presentation" id="Wlz-5e-Pse"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4YG-wm-kaG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -43,15 +49,141 @@
             <objects>
                 <viewController id="68G-nb-KzS" customClass="FirstVisit" customModule="StopCovidEpitech" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bJO-Z4-pQ4">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="FK9-Rh-dR9"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <segue destination="79b-YV-9ct" kind="presentation" id="CUi-W9-pOj"/>
+                        <segue destination="9ed-Ex-MvN" kind="presentation" id="f6Z-0n-aRZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cqE-iX-Pdl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2190" y="-558"/>
+        </scene>
+        <!--Inscription View Controller-->
+        <scene sceneID="njF-c5-5xa">
+            <objects>
+                <viewController id="9ed-Ex-MvN" customClass="InscriptionViewController" customModule="StopCovidEpitech" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="c6V-pC-PVB">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="kDC-bt-p90"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <connections>
+                        <segue destination="Bd7-hf-Xrj" kind="presentation" id="90q-aa-t3l"/>
+                        <segue destination="L5Q-CH-IDJ" kind="presentation" id="3oj-yh-vM9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EDi-7s-rcj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3590" y="24"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="8SO-aV-wUE">
+            <objects>
+                <viewController id="L5Q-CH-IDJ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0tU-8K-ypP">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="ZyG-dY-QTs"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <connections>
+                        <segue destination="2ud-D9-nEU" kind="presentation" id="EXc-fb-yKy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HgK-IC-3qh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4632" y="694"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="nBB-ST-Mjf">
+            <objects>
+                <viewController id="2ud-D9-nEU" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Qxq-Lm-kCK">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="TZ5-r2-gPG"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <connections>
+                        <segue destination="ZhN-Fa-yPX" kind="presentation" id="7mF-1e-Zq2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pis-wB-2vJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7086" y="632"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="4JC-kH-CoC">
+            <objects>
+                <viewController id="Bd7-hf-Xrj" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="onD-mq-8oC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Ce7-bx-nyN"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <connections>
+                        <segue destination="4ic-12-g7H" kind="presentation" id="Auk-L8-QFg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5w2-2w-d8B" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6775" y="-426"/>
+        </scene>
+        <!--Login View Controller-->
+        <scene sceneID="0fE-M4-9aX">
+            <objects>
+                <viewController id="79b-YV-9ct" customClass="LoginViewController" customModule="StopCovidEpitech" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="11V-Ad-n8w">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="85M-RQ-cJO"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <connections>
+                        <segue destination="ZhN-Fa-yPX" kind="presentation" id="4vr-Lw-DdQ"/>
+                        <segue destination="4ic-12-g7H" kind="presentation" id="hQL-rh-YTz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9av-Mv-dyP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3591" y="-814"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Bws-l7-dOw">
+            <objects>
+                <viewController id="ZhN-Fa-yPX" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="g17-YQ-clG">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="nSn-LF-9Sw"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ioj-WM-Whb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7801" y="-982"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ktW-aq-6xB">
+            <objects>
+                <viewController id="4ic-12-g7H" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ioh-iD-Q4l">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="6KJ-tp-YId"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="my0-98-Bq5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6509" y="-1921"/>
         </scene>
         <!--First Visit-->
         <scene sceneID="LYR-zS-zg8">
@@ -63,12 +195,19 @@
                         <viewLayoutGuide key="safeArea" id="NZX-1W-pZ2"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="presentation" id="9Ed-Q1-z3p"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Igg-Wa-Xc7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="133" y="-558"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="Auk-L8-QFg"/>
+        <segue reference="7mF-1e-Zq2"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
