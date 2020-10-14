@@ -11,7 +11,7 @@ class DashboardViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("okok")
+      
         
 //        print(self.view)
         

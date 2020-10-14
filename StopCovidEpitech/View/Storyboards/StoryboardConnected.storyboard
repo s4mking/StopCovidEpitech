@@ -86,10 +86,28 @@
                         <viewLayoutGuide key="safeArea" id="fcp-2Y-46E"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <segue destination="pFf-Q3-EBb" kind="presentation" identifier="codeCovid" id="wh6-Xk-pLb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kgh-Cu-wlz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1338" y="-1721"/>
+        </scene>
+        <!--Insert Code Covid View Controller-->
+        <scene sceneID="Ar6-e4-UkH">
+            <objects>
+                <viewController id="pFf-Q3-EBb" customClass="InsertCodeCovidViewController" customModule="StopCovidEpitech" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="AOE-MO-AgD">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="w16-03-o69"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="L7C-md-DOu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2355" y="-1722"/>
         </scene>
         <!--State Covid View Controller-->
         <scene sceneID="3lm-Vh-bkI">
