@@ -14,9 +14,7 @@
 		7E098D052536DE4B00DDDC1C /* CopyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E098D042536DE4B00DDDC1C /* CopyLabel.swift */; };
 		7E098D0B2536DF1900DDDC1C /* QRScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E098D0A2536DF1900DDDC1C /* QRScannerViewController.swift */; };
 		7E098D0E2536DF4000DDDC1C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E098D0D2536DF4000DDDC1C /* DetailViewController.swift */; };
-		7E3D30372536430A00BB1275 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E3D30362536430A00BB1275 /* GoogleService-Info.plist */; };
 		7E9A0A9F2536E0EA006FDBDE /* QRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9A0A9E2536E0EA006FDBDE /* QRCode.swift */; };
-		7E9A0AA32536E3C6006FDBDE /* swiftlee_qr_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E9A0AA22536E3C6006FDBDE /* swiftlee_qr_logo.png */; };
 		7E9A0B132536F0F8006FDBDE /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9A0B122536F0F8006FDBDE /* Grid.swift */; };
 		7E9A0B1B25370B62006FDBDE /* Bitmap.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E9A0B1A25370B62006FDBDE /* Bitmap.png */; };
 		7E9A0B1E253725D8006FDBDE /* InsertCodeCovidViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9A0B1D253725D8006FDBDE /* InsertCodeCovidViewController.swift */; };
@@ -34,6 +32,7 @@
 		7EDF7C8D2535F6A400191510 /* CodeCovidViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDF7C8C2535F6A400191510 /* CodeCovidViewController.swift */; };
 		7EDF7C902535F77600191510 /* SymptomesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDF7C8F2535F77600191510 /* SymptomesViewController.swift */; };
 		7EDF7C9325363D1300191510 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDF7C9225363D1300191510 /* SignUpViewController.swift */; };
+		D9B435052537407B003509A4 /* Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B435042537407B003509A4 /* Hex.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,9 +44,7 @@
 		7E098D042536DE4B00DDDC1C /* CopyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopyLabel.swift; sourceTree = "<group>"; };
 		7E098D0A2536DF1900DDDC1C /* QRScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScannerViewController.swift; sourceTree = "<group>"; };
 		7E098D0D2536DF4000DDDC1C /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		7E3D30362536430A00BB1275 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		7E9A0A9E2536E0EA006FDBDE /* QRCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCode.swift; sourceTree = "<group>"; };
-		7E9A0AA22536E3C6006FDBDE /* swiftlee_qr_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = swiftlee_qr_logo.png; path = ../../../../../../Downloads/swiftlee_qr_logo.png; sourceTree = "<group>"; };
 		7E9A0B122536F0F8006FDBDE /* Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
 		7E9A0B1A25370B62006FDBDE /* Bitmap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Bitmap.png; path = ../../../../../../Downloads/Bitmap.png; sourceTree = "<group>"; };
 		7E9A0B1D253725D8006FDBDE /* InsertCodeCovidViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertCodeCovidViewController.swift; sourceTree = "<group>"; };
@@ -67,6 +64,7 @@
 		7EDF7C8C2535F6A400191510 /* CodeCovidViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeCovidViewController.swift; sourceTree = "<group>"; };
 		7EDF7C8F2535F77600191510 /* SymptomesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymptomesViewController.swift; sourceTree = "<group>"; };
 		7EDF7C9225363D1300191510 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		D9B435042537407B003509A4 /* Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hex.swift; sourceTree = "<group>"; };
 		FB92C3976BE7A5E6714AA428 /* Pods-StopCovidEpitech.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StopCovidEpitech.debug.xcconfig"; path = "Target Support Files/Pods-StopCovidEpitech/Pods-StopCovidEpitech.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -105,6 +103,7 @@
 				7E098CF3253654B100DDDC1C /* UIViewController+Alert.swift */,
 				7E9A0A9E2536E0EA006FDBDE /* QRCode.swift */,
 				7E9A0B122536F0F8006FDBDE /* Grid.swift */,
+				D9B435042537407B003509A4 /* Hex.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -163,7 +162,6 @@
 			isa = PBXGroup;
 			children = (
 				7E9A0B1A25370B62006FDBDE /* Bitmap.png */,
-				7E9A0AA22536E3C6006FDBDE /* swiftlee_qr_logo.png */,
 			);
 			path = Ressources;
 			sourceTree = "<group>";
@@ -192,7 +190,6 @@
 				7E098CFA2536556500DDDC1C /* Model */,
 				7E098CF82536550600DDDC1C /* View */,
 				7EDF7C5D2535EA6B00191510 /* AppDelegate.swift */,
-				7E3D30362536430A00BB1275 /* GoogleService-Info.plist */,
 				7E098CF22536544B00DDDC1C /* Extensions */,
 				7EDF7C662535EA6D00191510 /* Assets.xcassets */,
 				7EDF7C6B2535EA6D00191510 /* Info.plist */,
@@ -261,8 +258,6 @@
 			files = (
 				7EDF7C6A2535EA6D00191510 /* LaunchScreen.storyboard in Resources */,
 				7EDF7C7E2535F4C600191510 /* StoryboardConnected.storyboard in Resources */,
-				7E9A0AA32536E3C6006FDBDE /* swiftlee_qr_logo.png in Resources */,
-				7E3D30372536430A00BB1275 /* GoogleService-Info.plist in Resources */,
 				7EDF7C672535EA6D00191510 /* Assets.xcassets in Resources */,
 				7EDF7C652535EA6B00191510 /* Main.storyboard in Resources */,
 				7E9A0B1B25370B62006FDBDE /* Bitmap.png in Resources */,
@@ -319,6 +314,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E9A0B132536F0F8006FDBDE /* Grid.swift in Sources */,
+				D9B435052537407B003509A4 /* Hex.swift in Sources */,
 				7E098CF4253654B100DDDC1C /* UIViewController+Alert.swift in Sources */,
 				7E098D0E2536DF4000DDDC1C /* DetailViewController.swift in Sources */,
 				7E098D052536DE4B00DDDC1C /* CopyLabel.swift in Sources */,
