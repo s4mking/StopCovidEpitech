@@ -3,10 +3,19 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B9681E16D82088B120CB5C3 /* Pods_StopCovidEpitech.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D099C39CD4BAEEA9A2563777 /* Pods_StopCovidEpitech.framework */; };
+		7E098CF4253654B100DDDC1C /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E098CF3253654B100DDDC1C /* UIViewController+Alert.swift */; };
+		7E098CFC2536557500DDDC1C /* QRData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E098CFB2536557500DDDC1C /* QRData.swift */; };
+		7E098D012536DE2500DDDC1C /* QRScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E098D002536DE2500DDDC1C /* QRScannerView.swift */; };
+		7E098D052536DE4B00DDDC1C /* CopyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E098D042536DE4B00DDDC1C /* CopyLabel.swift */; };
+		7E098D0B2536DF1900DDDC1C /* QRScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E098D0A2536DF1900DDDC1C /* QRScannerViewController.swift */; };
+		7E098D0E2536DF4000DDDC1C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E098D0D2536DF4000DDDC1C /* DetailViewController.swift */; };
+		7E3D30372536430A00BB1275 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E3D30362536430A00BB1275 /* GoogleService-Info.plist */; };
+		7E9A0A9F2536E0EA006FDBDE /* QRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9A0A9E2536E0EA006FDBDE /* QRCode.swift */; };
 		7EDF7C5E2535EA6B00191510 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDF7C5D2535EA6B00191510 /* AppDelegate.swift */; };
 		7EDF7C602535EA6B00191510 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDF7C5F2535EA6B00191510 /* SceneDelegate.swift */; };
 		7EDF7C622535EA6B00191510 /* FirstVisit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDF7C612535EA6B00191510 /* FirstVisit.swift */; };
@@ -17,15 +26,23 @@
 		7EDF7C772535EF1D00191510 /* InscriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDF7C762535EF1D00191510 /* InscriptionViewController.swift */; };
 		7EDF7C7B2535F1BC00191510 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDF7C7A2535F1BC00191510 /* DashboardViewController.swift */; };
 		7EDF7C7E2535F4C600191510 /* StoryboardConnected.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EDF7C7D2535F4C600191510 /* StoryboardConnected.storyboard */; };
-		7EDF7C812535F59600191510 /* QRCodeGeneratorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDF7C802535F59600191510 /* QRCodeGeneratorViewController.swift */; };
-		7EDF7C842535F5B000191510 /* QRCodeDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDF7C832535F5B000191510 /* QRCodeDisplayViewController.swift */; };
 		7EDF7C872535F64C00191510 /* StateCovidViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDF7C862535F64C00191510 /* StateCovidViewController.swift */; };
 		7EDF7C8A2535F68C00191510 /* DepistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDF7C892535F68C00191510 /* DepistViewController.swift */; };
 		7EDF7C8D2535F6A400191510 /* CodeCovidViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDF7C8C2535F6A400191510 /* CodeCovidViewController.swift */; };
 		7EDF7C902535F77600191510 /* SymptomesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDF7C8F2535F77600191510 /* SymptomesViewController.swift */; };
+		7EDF7C9325363D1300191510 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDF7C9225363D1300191510 /* SignUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		79751790DFBB849675251FEA /* Pods-StopCovidEpitech.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StopCovidEpitech.debug.xcconfig"; path = "Target Support Files/Pods-StopCovidEpitech/Pods-StopCovidEpitech.debug.xcconfig"; sourceTree = "<group>"; };
+		7E098CF3253654B100DDDC1C /* UIViewController+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
+		7E098CFB2536557500DDDC1C /* QRData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRData.swift; sourceTree = "<group>"; };
+		7E098D002536DE2500DDDC1C /* QRScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScannerView.swift; sourceTree = "<group>"; };
+		7E098D042536DE4B00DDDC1C /* CopyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopyLabel.swift; sourceTree = "<group>"; };
+		7E098D0A2536DF1900DDDC1C /* QRScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScannerViewController.swift; sourceTree = "<group>"; };
+		7E098D0D2536DF4000DDDC1C /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		7E3D30362536430A00BB1275 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7E9A0A9E2536E0EA006FDBDE /* QRCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCode.swift; sourceTree = "<group>"; };
 		7EDF7C5A2535EA6B00191510 /* StopCovidEpitech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StopCovidEpitech.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EDF7C5D2535EA6B00191510 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7EDF7C5F2535EA6B00191510 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,12 +55,13 @@
 		7EDF7C762535EF1D00191510 /* InscriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InscriptionViewController.swift; sourceTree = "<group>"; };
 		7EDF7C7A2535F1BC00191510 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
 		7EDF7C7D2535F4C600191510 /* StoryboardConnected.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StoryboardConnected.storyboard; sourceTree = "<group>"; };
-		7EDF7C802535F59600191510 /* QRCodeGeneratorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeGeneratorViewController.swift; sourceTree = "<group>"; };
-		7EDF7C832535F5B000191510 /* QRCodeDisplayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeDisplayViewController.swift; sourceTree = "<group>"; };
 		7EDF7C862535F64C00191510 /* StateCovidViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateCovidViewController.swift; sourceTree = "<group>"; };
 		7EDF7C892535F68C00191510 /* DepistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepistViewController.swift; sourceTree = "<group>"; };
 		7EDF7C8C2535F6A400191510 /* CodeCovidViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeCovidViewController.swift; sourceTree = "<group>"; };
 		7EDF7C8F2535F77600191510 /* SymptomesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymptomesViewController.swift; sourceTree = "<group>"; };
+		7EDF7C9225363D1300191510 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		BE6954F875383DEC073482A9 /* Pods-StopCovidEpitech.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StopCovidEpitech.release.xcconfig"; path = "Target Support Files/Pods-StopCovidEpitech/Pods-StopCovidEpitech.release.xcconfig"; sourceTree = "<group>"; };
+		D099C39CD4BAEEA9A2563777 /* Pods_StopCovidEpitech.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StopCovidEpitech.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,17 +69,94 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B9681E16D82088B120CB5C3 /* Pods_StopCovidEpitech.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		697C9E32083408FBE05F9F43 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D099C39CD4BAEEA9A2563777 /* Pods_StopCovidEpitech.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		709D0753675F435B692029B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				79751790DFBB849675251FEA /* Pods-StopCovidEpitech.debug.xcconfig */,
+				BE6954F875383DEC073482A9 /* Pods-StopCovidEpitech.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7E098CF22536544B00DDDC1C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7E098CF3253654B100DDDC1C /* UIViewController+Alert.swift */,
+				7E9A0A9E2536E0EA006FDBDE /* QRCode.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7E098CF7253654DA00DDDC1C /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				7EDF7C682535EA6D00191510 /* LaunchScreen.storyboard */,
+				7EDF7C7D2535F4C600191510 /* StoryboardConnected.storyboard */,
+				7EDF7C632535EA6B00191510 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		7E098CF82536550600DDDC1C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7E098CF92536551B00DDDC1C /* Controller */,
+				7E098CF7253654DA00DDDC1C /* Storyboards */,
+				7E098D002536DE2500DDDC1C /* QRScannerView.swift */,
+				7E098D042536DE4B00DDDC1C /* CopyLabel.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7E098CF92536551B00DDDC1C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7EDF7C612535EA6B00191510 /* FirstVisit.swift */,
+				7EDF7C762535EF1D00191510 /* InscriptionViewController.swift */,
+				7EDF7C8F2535F77600191510 /* SymptomesViewController.swift */,
+				7EDF7C892535F68C00191510 /* DepistViewController.swift */,
+				7EDF7C7A2535F1BC00191510 /* DashboardViewController.swift */,
+				7EDF7C8C2535F6A400191510 /* CodeCovidViewController.swift */,
+				7EDF7C862535F64C00191510 /* StateCovidViewController.swift */,
+				7EDF7C9225363D1300191510 /* SignUpViewController.swift */,
+				7EDF7C732535EE7A00191510 /* LoginViewController.swift */,
+				7E098D0A2536DF1900DDDC1C /* QRScannerViewController.swift */,
+				7E098D0D2536DF4000DDDC1C /* DetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7E098CFA2536556500DDDC1C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7E098CFB2536557500DDDC1C /* QRData.swift */,
+			);
+			name = Model;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		7EDF7C512535EA6B00191510 = {
 			isa = PBXGroup;
 			children = (
 				7EDF7C5C2535EA6B00191510 /* StopCovidEpitech */,
 				7EDF7C5B2535EA6B00191510 /* Products */,
+				709D0753675F435B692029B3 /* Pods */,
+				697C9E32083408FBE05F9F43 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -76,23 +171,14 @@
 		7EDF7C5C2535EA6B00191510 /* StopCovidEpitech */ = {
 			isa = PBXGroup;
 			children = (
+				7E098CFA2536556500DDDC1C /* Model */,
+				7E098CF82536550600DDDC1C /* View */,
 				7EDF7C5D2535EA6B00191510 /* AppDelegate.swift */,
 				7EDF7C5F2535EA6B00191510 /* SceneDelegate.swift */,
-				7EDF7C612535EA6B00191510 /* FirstVisit.swift */,
-				7EDF7C732535EE7A00191510 /* LoginViewController.swift */,
-				7EDF7C762535EF1D00191510 /* InscriptionViewController.swift */,
-				7EDF7C632535EA6B00191510 /* Main.storyboard */,
-				7EDF7C7D2535F4C600191510 /* StoryboardConnected.storyboard */,
-				7EDF7C8F2535F77600191510 /* SymptomesViewController.swift */,
-				7EDF7C862535F64C00191510 /* StateCovidViewController.swift */,
-				7EDF7C892535F68C00191510 /* DepistViewController.swift */,
-				7EDF7C8C2535F6A400191510 /* CodeCovidViewController.swift */,
-				7EDF7C7A2535F1BC00191510 /* DashboardViewController.swift */,
+				7E3D30362536430A00BB1275 /* GoogleService-Info.plist */,
+				7E098CF22536544B00DDDC1C /* Extensions */,
 				7EDF7C662535EA6D00191510 /* Assets.xcassets */,
-				7EDF7C682535EA6D00191510 /* LaunchScreen.storyboard */,
 				7EDF7C6B2535EA6D00191510 /* Info.plist */,
-				7EDF7C802535F59600191510 /* QRCodeGeneratorViewController.swift */,
-				7EDF7C832535F5B000191510 /* QRCodeDisplayViewController.swift */,
 			);
 			path = StopCovidEpitech;
 			sourceTree = "<group>";
@@ -104,9 +190,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7EDF7C6E2535EA6D00191510 /* Build configuration list for PBXNativeTarget "StopCovidEpitech" */;
 			buildPhases = (
+				DC4E437A8DE4AEB7F016D7E1 /* [CP] Check Pods Manifest.lock */,
 				7EDF7C562535EA6B00191510 /* Sources */,
 				7EDF7C572535EA6B00191510 /* Frameworks */,
 				7EDF7C582535EA6B00191510 /* Resources */,
+				46347697393B99CF7EAC0555 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -156,6 +244,7 @@
 			files = (
 				7EDF7C6A2535EA6D00191510 /* LaunchScreen.storyboard in Resources */,
 				7EDF7C7E2535F4C600191510 /* StoryboardConnected.storyboard in Resources */,
+				7E3D30372536430A00BB1275 /* GoogleService-Info.plist in Resources */,
 				7EDF7C672535EA6D00191510 /* Assets.xcassets in Resources */,
 				7EDF7C652535EA6B00191510 /* Main.storyboard in Resources */,
 			);
@@ -163,23 +252,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		46347697393B99CF7EAC0555 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StopCovidEpitech/Pods-StopCovidEpitech-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StopCovidEpitech/Pods-StopCovidEpitech-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StopCovidEpitech/Pods-StopCovidEpitech-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC4E437A8DE4AEB7F016D7E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StopCovidEpitech-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7EDF7C562535EA6B00191510 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E098CF4253654B100DDDC1C /* UIViewController+Alert.swift in Sources */,
+				7E098D0E2536DF4000DDDC1C /* DetailViewController.swift in Sources */,
+				7E098D052536DE4B00DDDC1C /* CopyLabel.swift in Sources */,
 				7EDF7C742535EE7A00191510 /* LoginViewController.swift in Sources */,
-				7EDF7C812535F59600191510 /* QRCodeGeneratorViewController.swift in Sources */,
 				7EDF7C7B2535F1BC00191510 /* DashboardViewController.swift in Sources */,
+				7E9A0A9F2536E0EA006FDBDE /* QRCode.swift in Sources */,
+				7E098D0B2536DF1900DDDC1C /* QRScannerViewController.swift in Sources */,
+				7E098CFC2536557500DDDC1C /* QRData.swift in Sources */,
 				7EDF7C772535EF1D00191510 /* InscriptionViewController.swift in Sources */,
 				7EDF7C622535EA6B00191510 /* FirstVisit.swift in Sources */,
 				7EDF7C8A2535F68C00191510 /* DepistViewController.swift in Sources */,
-				7EDF7C842535F5B000191510 /* QRCodeDisplayViewController.swift in Sources */,
 				7EDF7C8D2535F6A400191510 /* CodeCovidViewController.swift in Sources */,
 				7EDF7C902535F77600191510 /* SymptomesViewController.swift in Sources */,
 				7EDF7C872535F64C00191510 /* StateCovidViewController.swift in Sources */,
 				7EDF7C5E2535EA6B00191510 /* AppDelegate.swift in Sources */,
+				7EDF7C9325363D1300191510 /* SignUpViewController.swift in Sources */,
 				7EDF7C602535EA6B00191510 /* SceneDelegate.swift in Sources */,
+				7E098D012536DE2500DDDC1C /* QRScannerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,6 +460,7 @@
 		};
 		7EDF7C6F2535EA6D00191510 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79751790DFBB849675251FEA /* Pods-StopCovidEpitech.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -341,6 +479,7 @@
 		};
 		7EDF7C702535EA6D00191510 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE6954F875383DEC073482A9 /* Pods-StopCovidEpitech.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
