@@ -16,7 +16,6 @@
 		7E098D0E2536DF4000DDDC1C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E098D0D2536DF4000DDDC1C /* DetailViewController.swift */; };
 		7E9A0A9F2536E0EA006FDBDE /* QRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9A0A9E2536E0EA006FDBDE /* QRCode.swift */; };
 		7E9A0B132536F0F8006FDBDE /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9A0B122536F0F8006FDBDE /* Grid.swift */; };
-		7E9A0B1B25370B62006FDBDE /* Bitmap.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E9A0B1A25370B62006FDBDE /* Bitmap.png */; };
 		7E9A0B1E253725D8006FDBDE /* InsertCodeCovidViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9A0B1D253725D8006FDBDE /* InsertCodeCovidViewController.swift */; };
 		7EDF7C5E2535EA6B00191510 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDF7C5D2535EA6B00191510 /* AppDelegate.swift */; };
 		7EDF7C622535EA6B00191510 /* FirstVisit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDF7C612535EA6B00191510 /* FirstVisit.swift */; };
@@ -46,7 +45,6 @@
 		7E098D0D2536DF4000DDDC1C /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		7E9A0A9E2536E0EA006FDBDE /* QRCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCode.swift; sourceTree = "<group>"; };
 		7E9A0B122536F0F8006FDBDE /* Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
-		7E9A0B1A25370B62006FDBDE /* Bitmap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Bitmap.png; path = ../../../../../../Downloads/Bitmap.png; sourceTree = "<group>"; };
 		7E9A0B1D253725D8006FDBDE /* InsertCodeCovidViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertCodeCovidViewController.swift; sourceTree = "<group>"; };
 		7EDF7C5A2535EA6B00191510 /* StopCovidEpitech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StopCovidEpitech.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EDF7C5D2535EA6B00191510 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -161,7 +159,6 @@
 		7E9A0AA12536E37A006FDBDE /* Ressources */ = {
 			isa = PBXGroup;
 			children = (
-				7E9A0B1A25370B62006FDBDE /* Bitmap.png */,
 			);
 			path = Ressources;
 			sourceTree = "<group>";
@@ -260,7 +257,6 @@
 				7EDF7C7E2535F4C600191510 /* StoryboardConnected.storyboard in Resources */,
 				7EDF7C672535EA6D00191510 /* Assets.xcassets in Resources */,
 				7EDF7C652535EA6B00191510 /* Main.storyboard in Resources */,
-				7E9A0B1B25370B62006FDBDE /* Bitmap.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
