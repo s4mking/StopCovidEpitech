@@ -18,6 +18,8 @@
 		7E9A0A9F2536E0EA006FDBDE /* QRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9A0A9E2536E0EA006FDBDE /* QRCode.swift */; };
 		7E9A0AA32536E3C6006FDBDE /* swiftlee_qr_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E9A0AA22536E3C6006FDBDE /* swiftlee_qr_logo.png */; };
 		7E9A0B132536F0F8006FDBDE /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9A0B122536F0F8006FDBDE /* Grid.swift */; };
+		7E9A0B1B25370B62006FDBDE /* Bitmap.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E9A0B1A25370B62006FDBDE /* Bitmap.png */; };
+		7E9A0B1E253725D8006FDBDE /* InsertCodeCovidViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9A0B1D253725D8006FDBDE /* InsertCodeCovidViewController.swift */; };
 		7EDF7C5E2535EA6B00191510 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDF7C5D2535EA6B00191510 /* AppDelegate.swift */; };
 		7EDF7C622535EA6B00191510 /* FirstVisit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDF7C612535EA6B00191510 /* FirstVisit.swift */; };
 		7EDF7C652535EA6B00191510 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EDF7C632535EA6B00191510 /* Main.storyboard */; };
@@ -47,6 +49,8 @@
 		7E9A0A9E2536E0EA006FDBDE /* QRCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCode.swift; sourceTree = "<group>"; };
 		7E9A0AA22536E3C6006FDBDE /* swiftlee_qr_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = swiftlee_qr_logo.png; path = ../../../../../../Downloads/swiftlee_qr_logo.png; sourceTree = "<group>"; };
 		7E9A0B122536F0F8006FDBDE /* Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
+		7E9A0B1A25370B62006FDBDE /* Bitmap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Bitmap.png; path = ../../../../../../Downloads/Bitmap.png; sourceTree = "<group>"; };
+		7E9A0B1D253725D8006FDBDE /* InsertCodeCovidViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertCodeCovidViewController.swift; sourceTree = "<group>"; };
 		7EDF7C5A2535EA6B00191510 /* StopCovidEpitech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StopCovidEpitech.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EDF7C5D2535EA6B00191510 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7EDF7C612535EA6B00191510 /* FirstVisit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstVisit.swift; sourceTree = "<group>"; };
@@ -141,6 +145,7 @@
 				7EDF7C732535EE7A00191510 /* LoginViewController.swift */,
 				7E098D0A2536DF1900DDDC1C /* QRScannerViewController.swift */,
 				7E098D0D2536DF4000DDDC1C /* DetailViewController.swift */,
+				7E9A0B1D253725D8006FDBDE /* InsertCodeCovidViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -157,6 +162,7 @@
 		7E9A0AA12536E37A006FDBDE /* Ressources */ = {
 			isa = PBXGroup;
 			children = (
+				7E9A0B1A25370B62006FDBDE /* Bitmap.png */,
 				7E9A0AA22536E3C6006FDBDE /* swiftlee_qr_logo.png */,
 			);
 			path = Ressources;
@@ -259,6 +265,7 @@
 				7E3D30372536430A00BB1275 /* GoogleService-Info.plist in Resources */,
 				7EDF7C672535EA6D00191510 /* Assets.xcassets in Resources */,
 				7EDF7C652535EA6B00191510 /* Main.storyboard in Resources */,
+				7E9A0B1B25370B62006FDBDE /* Bitmap.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,6 +332,7 @@
 				7EDF7C8A2535F68C00191510 /* DepistViewController.swift in Sources */,
 				7EDF7C8D2535F6A400191510 /* CodeCovidViewController.swift in Sources */,
 				7EDF7C902535F77600191510 /* SymptomesViewController.swift in Sources */,
+				7E9A0B1E253725D8006FDBDE /* InsertCodeCovidViewController.swift in Sources */,
 				7EDF7C872535F64C00191510 /* StateCovidViewController.swift in Sources */,
 				7EDF7C5E2535EA6B00191510 /* AppDelegate.swift in Sources */,
 				7EDF7C9325363D1300191510 /* SignUpViewController.swift in Sources */,
