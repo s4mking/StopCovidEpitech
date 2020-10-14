@@ -91,7 +91,7 @@ final class QRViewController : UIViewController {
     let swiftLeeLogo = UIImage(named: "swiftlee_qr_logo.png")!
 
     override func loadView() {
-        guard let qrURLImage = URL(string: "https://www.avanderlee.com")?.qrImage(using: swiftLeeOrangeColor, logo: swiftLeeLogo) else { return }
+        guard let qrURLImage = URL(string: "http://google.com")?.qrImage(using: swiftLeeOrangeColor, logo: swiftLeeLogo) else { return }
         let imageView = UIImageView(image: UIImage(ciImage: qrURLImage))
         imageView.contentMode = .center
         imageView.layer.backgroundColor = UIColor.white.cgColor
