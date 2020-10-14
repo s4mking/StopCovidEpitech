@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="4xs-Ze-80k">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
@@ -11,7 +11,7 @@
         <!--Dashboard View Controller-->
         <scene sceneID="wYn-hI-CMk">
             <objects>
-                <viewController id="4xs-Ze-80k" customClass="DashboardViewController" customModule="StopCovidEpitech" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DashboardView" id="4xs-Ze-80k" customClass="DashboardViewController" customModule="StopCovidEpitech" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="z0J-JZ-eBO">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -22,7 +22,7 @@
                         <segue destination="dQr-Qu-x7p" kind="presentation" id="s9E-8v-uiU"/>
                         <segue destination="MNU-Ks-fBm" kind="presentation" id="xaU-8T-s9d"/>
                         <segue destination="oFP-3H-LOQ" kind="presentation" id="Q1g-Rw-4UL"/>
-                        <segue destination="ZnS-SV-ADI" kind="presentation" id="I48-4x-7t7"/>
+                        <segue destination="ZnS-SV-ADI" kind="presentation" identifier="Test" id="I48-4x-7t7"/>
                         <segue destination="K16-vm-bWD" kind="presentation" id="Eiz-VQ-fKI"/>
                         <segue destination="Rjg-Yf-RfT" kind="presentation" id="sCn-ue-ZgY"/>
                     </connections>

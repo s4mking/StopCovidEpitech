@@ -8,22 +8,23 @@
 import UIKit
 
 class CodeCovidViewController: UIViewController {
-
+    let titre = UIView()
+    let paragraphe = UIView()
+    let image = UIView()
+    
     override func viewDidLoad() {
+        
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        print("hello")
+        
+        titre.backgroundColor = .blue
+        paragraphe.backgroundColor = .blue
+        image.backgroundColor = .blue
+        
+        self.view.addSubViewGrid(view: titre, x: 0, y: 0, width: 4, height: 12, grid: 12)
+        self.view.addSubViewGrid(view: paragraphe, x: 0, y: 0, width: 4, height: 12, grid: 12)
+        self.view.addSubViewGrid(view: image, x: 0, y: 0, width: 4, height: 12, grid: 12)
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
