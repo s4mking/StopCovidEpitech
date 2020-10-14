@@ -19,7 +19,6 @@
 		7E9A0AA32536E3C6006FDBDE /* swiftlee_qr_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E9A0AA22536E3C6006FDBDE /* swiftlee_qr_logo.png */; };
 		7E9A0B132536F0F8006FDBDE /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9A0B122536F0F8006FDBDE /* Grid.swift */; };
 		7EDF7C5E2535EA6B00191510 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDF7C5D2535EA6B00191510 /* AppDelegate.swift */; };
-		7EDF7C602535EA6B00191510 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDF7C5F2535EA6B00191510 /* SceneDelegate.swift */; };
 		7EDF7C622535EA6B00191510 /* FirstVisit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDF7C612535EA6B00191510 /* FirstVisit.swift */; };
 		7EDF7C652535EA6B00191510 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EDF7C632535EA6B00191510 /* Main.storyboard */; };
 		7EDF7C672535EA6D00191510 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EDF7C662535EA6D00191510 /* Assets.xcassets */; };
@@ -50,7 +49,6 @@
 		7E9A0B122536F0F8006FDBDE /* Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
 		7EDF7C5A2535EA6B00191510 /* StopCovidEpitech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StopCovidEpitech.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EDF7C5D2535EA6B00191510 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7EDF7C5F2535EA6B00191510 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		7EDF7C612535EA6B00191510 /* FirstVisit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstVisit.swift; sourceTree = "<group>"; };
 		7EDF7C642535EA6B00191510 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7EDF7C662535EA6D00191510 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -188,7 +186,6 @@
 				7E098CFA2536556500DDDC1C /* Model */,
 				7E098CF82536550600DDDC1C /* View */,
 				7EDF7C5D2535EA6B00191510 /* AppDelegate.swift */,
-				7EDF7C5F2535EA6B00191510 /* SceneDelegate.swift */,
 				7E3D30362536430A00BB1275 /* GoogleService-Info.plist */,
 				7E098CF22536544B00DDDC1C /* Extensions */,
 				7EDF7C662535EA6D00191510 /* Assets.xcassets */,
@@ -331,7 +328,6 @@
 				7EDF7C872535F64C00191510 /* StateCovidViewController.swift in Sources */,
 				7EDF7C5E2535EA6B00191510 /* AppDelegate.swift in Sources */,
 				7EDF7C9325363D1300191510 /* SignUpViewController.swift in Sources */,
-				7EDF7C602535EA6B00191510 /* SceneDelegate.swift in Sources */,
 				7E098D012536DE2500DDDC1C /* QRScannerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

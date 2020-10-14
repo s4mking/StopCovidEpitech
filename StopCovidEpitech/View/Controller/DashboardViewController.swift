@@ -11,8 +11,23 @@ class DashboardViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        print("okok")
+        
+//        print(self.view)
+        
+        let block = UIView()
+        block.backgroundColor = .red
+        
+        self.view.addSubViewGrid(view: block, x: 2, y: 2, width: 12, height: 12, grid: 12)
+        
+        
         // Do any additional setup after loading the view.
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        performSegue(withIdentifier: "Test", sender: nil)
     }
     
 
