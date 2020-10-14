@@ -55,7 +55,6 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
-                        <segue destination="79b-YV-9ct" kind="presentation" id="CUi-W9-pOj"/>
                         <segue destination="9ed-Ex-MvN" kind="presentation" id="f6Z-0n-aRZ"/>
                     </connections>
                 </viewController>
@@ -76,11 +75,12 @@
                     <connections>
                         <segue destination="Bd7-hf-Xrj" kind="presentation" id="90q-aa-t3l"/>
                         <segue destination="L5Q-CH-IDJ" kind="presentation" id="3oj-yh-vM9"/>
+                        <segue destination="4ic-12-g7H" kind="presentation" id="XkK-0v-9bW"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EDi-7s-rcj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3590" y="24"/>
+            <point key="canvasLocation" x="3787" y="-521"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="8SO-aV-wUE">
@@ -134,26 +134,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5w2-2w-d8B" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6775" y="-426"/>
-        </scene>
-        <!--Login View Controller-->
-        <scene sceneID="0fE-M4-9aX">
-            <objects>
-                <viewController id="79b-YV-9ct" customClass="LoginViewController" customModule="StopCovidEpitech" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="11V-Ad-n8w">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="85M-RQ-cJO"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <connections>
-                        <segue destination="ZhN-Fa-yPX" kind="presentation" id="4vr-Lw-DdQ"/>
-                        <segue destination="4ic-12-g7H" kind="presentation" id="hQL-rh-YTz"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="9av-Mv-dyP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3591" y="-814"/>
+            <point key="canvasLocation" x="6509" y="-558"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Bws-l7-dOw">
@@ -205,8 +186,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Auk-L8-QFg"/>
-        <segue reference="7mF-1e-Zq2"/>
+        <segue reference="XkK-0v-9bW"/>
     </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="systemBackgroundColor">

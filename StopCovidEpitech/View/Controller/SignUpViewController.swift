@@ -1,5 +1,5 @@
 //
-//  QRCodeGeneratorViewController.swift
+//  SignUpViewController.swift
 //  StopCovidEpitech
 //
 //  Created by Samuel on 13/10/2020.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class QRCodeGeneratorViewController: UIViewController {
+class SignUpViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
