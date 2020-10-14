@@ -34,6 +34,16 @@ class DashboardViewController: UIViewController {
         let logoutImage = UIImageView()
         logoutImage.image = UIImage(named: "Deconnexion.png")
         
+        let aboutImage = UIImageView()
+        aboutImage.image = UIImage(named: "FAQ.png")
+
+        let accountImage = UIImageView()
+        accountImage.image = UIImage(named: "Profile.png")
+        
+        let logo = UIImageView()
+        logo.image = UIImage(named: "LOGO.png")
+        
+        
         state.text = "Je suis sain !"
         state.font = UIFont.systemFont(ofSize: 40, weight: .bold)
         state.textColor = .white
@@ -91,8 +101,11 @@ class DashboardViewController: UIViewController {
         
         self.view.addSubViewGrid(view: container, x: 0, y: 2, width: 12, height: 10, grid: 12)
         
-        self.view.addSubViewGrid(view: navigation, x: 0, y: 0, width: 12, height: 2, grid: 6)
-        navigation.addSubViewGrid(view: covidImage, x: 3, y: 1, width: 2, height: 2, grid: 2)
+        self.view.addSubViewGrid(view: navigation, x: 0, y: 0, width: 12, height: 2, grid: 12)
+        navigation.addSubViewGrid(view: logoutImage, x: 10, y: 5, width: 1.5, height: 4.5, grid: 12)
+        navigation.addSubViewGrid(view: aboutImage, x: 8.25, y: 5, width: 1.5, height: 4.5, grid: 12)
+        navigation.addSubViewGrid(view: accountImage, x: 6.5, y: 5, width: 1.5, height: 4.5, grid: 12)
+        navigation.addSubViewGrid(view: logo, x: 1, y: 5, width: 3.5, height: 4.5, grid: 12)
         
         container.addSubViewGrid(view: stateContainer, x: 1, y: 1, width: 10, height: 2, grid: 12)
         stateContainer.addSubViewGrid(view: state, x: 0, y: 0, width: 2, height: 1, grid: 2)
