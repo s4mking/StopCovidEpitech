@@ -8,20 +8,31 @@ class DashboardViewController: UIViewController {
         let pink = UIColor(hex: "#FDA3A3ff")
         let grey = UIColor(hex: "#DDE6E7ff")
         let green = UIColor(hex: "#22A5A7ff")
+        let lightGreen = UIColor(hex: "#8CD9C0ff")
         let orange = UIColor(hex: "#F5AE6Dff")
         let red = UIColor(hex: "#F84C4Cff")
         
+        
+        let navigation = UIView()
         let track = UIView()
         let trackText = UILabel()
+        let trackImage = UIImageView()
         let code = UIView()
         let codeText = UILabel()
+        let codeImage = UIImageView()
         let stateContainer = UIView()
         let state = UILabel()
         let info = UILabel()
         let qr = UIView()
+        let qrImage = UIImageView()
+        let qrText = UILabel()
         let container = UIView()
         let covid = UIView()
         let covidText = UILabel()
+        let covidImage = UIImageView()
+        
+        let logoutImage = UIImageView()
+        logoutImage.image = UIImage(named: "Deconnexion.png")
         
         state.text = "Je suis sain !"
         state.font = UIFont.systemFont(ofSize: 40, weight: .bold)
@@ -34,21 +45,34 @@ class DashboardViewController: UIViewController {
         info.textAlignment = .center
         
         trackText.text = "Se faire dépister"
-        trackText.font = UIFont.systemFont(ofSize: 20, weight: .bold)
+        trackText.font = UIFont.systemFont(ofSize: 25, weight: .bold)
         trackText.textColor = green
         trackText.textAlignment = .left
         
+        trackImage.image = UIImage(named: "Dépistage.png")
+        
         codeText.text = "Rentrer son\nCode Covid"
-        codeText.font = UIFont.systemFont(ofSize: 20, weight: .bold)
+        codeText.font = UIFont.systemFont(ofSize: 25, weight: .bold)
         codeText.numberOfLines = 0
         codeText.textColor = green
         codeText.textAlignment = .left
         
+        codeImage.image = UIImage(named: "Code COVID.png")
+        
         covidText.text = "Ai-je le\nCOVID"
-        covidText.font = UIFont.systemFont(ofSize: 20, weight: .bold)
+        covidText.font = UIFont.systemFont(ofSize: 25, weight: .bold)
         covidText.numberOfLines = 0
         covidText.textColor = green
         covidText.textAlignment = .center
+        
+        covidImage.image = UIImage(named: "symptomes.png")
+        
+        qrText.text = "QR code"
+        qrText.font = UIFont.systemFont(ofSize: 20, weight: .bold)
+        qrText.textColor = .black
+        qrText.textAlignment = .center
+        
+        qrImage.image = UIImage(named: "QR CODE NOIR")
         
         container.layer.cornerRadius = 40
         track.layer.cornerRadius = 20
@@ -59,22 +83,32 @@ class DashboardViewController: UIViewController {
         
         
         track.backgroundColor = .white
+//        container.setGradientBackground(colorOne: .green, colorTwo: .green)
         container.backgroundColor = green
         code.backgroundColor = .white
         qr.backgroundColor = .white
         covid.backgroundColor = .white
         
         self.view.addSubViewGrid(view: container, x: 0, y: 2, width: 12, height: 10, grid: 12)
+        
+        self.view.addSubViewGrid(view: navigation, x: 0, y: 0, width: 12, height: 2, grid: 6)
+        navigation.addSubViewGrid(view: covidImage, x: 3, y: 1, width: 2, height: 2, grid: 2)
+        
         container.addSubViewGrid(view: stateContainer, x: 1, y: 1, width: 10, height: 2, grid: 12)
         stateContainer.addSubViewGrid(view: state, x: 0, y: 0, width: 2, height: 1, grid: 2)
         stateContainer.addSubViewGrid(view: info, x: 0, y: 0.7, width: 2, height: 1, grid: 2)
         container.addSubViewGrid(view: track, x: 1, y: 3.25, width: 10, height: 2, grid: 12)
         track.addSubViewGrid(view: trackText, x: 0.2, y: 1, width: 2, height: 1, grid: 3)
+        track.addSubViewGrid(view: trackImage, x: 2.25, y: 0.75, width: 0.5, height: 1.5, grid: 3)
         container.addSubViewGrid(view: code, x: 1, y: 5.5, width: 10, height: 2, grid: 12)
         code.addSubViewGrid(view: codeText, x: 0.2, y: 0, width: 2, height: 3, grid: 3)
+        code.addSubViewGrid(view: codeImage, x: 2.25, y: 0.75, width: 0.5, height: 1.5, grid: 3)
         container.addSubViewGrid(view: qr, x: 1, y: 7.75, width: 4.75, height: 2.5, grid: 12)
+        qr.addSubViewGrid(view: qrText, x: 3, y: 5, width: 6, height: 2, grid: 12)
+        qr.addSubViewGrid(view: qrImage, x: 1, y: 1, width: 10, height: 10, grid: 12)
         container.addSubViewGrid(view: covid, x: 6.25, y: 7.75, width: 4.75, height: 2.5, grid: 12)
         covid.addSubViewGrid(view: covidText, x: 0, y: 0.2, width: 2, height: 1, grid: 2)
+        covid.addSubViewGrid(view: covidImage, x: 0.4, y: 0.8, width: 1.25, height: 1.3, grid: 2)
     }
 
 }

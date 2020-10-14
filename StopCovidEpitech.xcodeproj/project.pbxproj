@@ -32,6 +32,7 @@
 		7EDF7C902535F77600191510 /* SymptomesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDF7C8F2535F77600191510 /* SymptomesViewController.swift */; };
 		7EDF7C9325363D1300191510 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDF7C9225363D1300191510 /* SignUpViewController.swift */; };
 		D9B435052537407B003509A4 /* Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B435042537407B003509A4 /* Hex.swift */; };
+		D9B4350A25379F1E003509A4 /* Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B4350925379F1E003509A4 /* Gradient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +64,7 @@
 		7EDF7C8F2535F77600191510 /* SymptomesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymptomesViewController.swift; sourceTree = "<group>"; };
 		7EDF7C9225363D1300191510 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		D9B435042537407B003509A4 /* Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hex.swift; sourceTree = "<group>"; };
+		D9B4350925379F1E003509A4 /* Gradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradient.swift; sourceTree = "<group>"; };
 		FB92C3976BE7A5E6714AA428 /* Pods-StopCovidEpitech.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StopCovidEpitech.debug.xcconfig"; path = "Target Support Files/Pods-StopCovidEpitech/Pods-StopCovidEpitech.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -102,6 +104,7 @@
 				7E9A0A9E2536E0EA006FDBDE /* QRCode.swift */,
 				7E9A0B122536F0F8006FDBDE /* Grid.swift */,
 				D9B435042537407B003509A4 /* Hex.swift */,
+				D9B4350925379F1E003509A4 /* Gradient.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -326,6 +329,7 @@
 				7EDF7C902535F77600191510 /* SymptomesViewController.swift in Sources */,
 				7E9A0B1E253725D8006FDBDE /* InsertCodeCovidViewController.swift in Sources */,
 				7EDF7C872535F64C00191510 /* StateCovidViewController.swift in Sources */,
+				D9B4350A25379F1E003509A4 /* Gradient.swift in Sources */,
 				7EDF7C5E2535EA6B00191510 /* AppDelegate.swift in Sources */,
 				7EDF7C9325363D1300191510 /* SignUpViewController.swift in Sources */,
 				7E098D012536DE2500DDDC1C /* QRScannerView.swift in Sources */,
