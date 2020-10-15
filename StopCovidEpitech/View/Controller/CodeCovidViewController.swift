@@ -13,7 +13,6 @@ class CodeCovidViewController: UIViewController {
     let image = UIView()
     
     override func viewDidLoad() {
-    
         super.viewDidLoad()
         titre.text = "Où se trouve mon test Covid ?"
         titre.font = titre.font.withSize(22)
@@ -25,25 +24,21 @@ class CodeCovidViewController: UIViewController {
         paragraphe.frame.size.height = CGFloat(MAXFLOAT)
         paragraphe.sizeToFit()
         paragraphe.textAlignment = .center
-        titre.backgroundColor = .red
-        paragraphe.backgroundColor = .blue
-        image.backgroundColor = .green
-        let imageResult = UIImage(named: ("Bitmap"))
-        let imageView = UIImageView(image: imageResult!)
+        let imageResult = UIImage(named: ("doc"))
+        let imageView = UIImageView(image: imageResult)
         
         self.view.addSubViewGrid(view: titre, x: 1, y: 0, width: 10, height: 2, grid: 12)
         self.view.addSubViewGrid(view: paragraphe, x: 1, y: 2, width: 10, height: 3, grid: 12)
         self.view.addSubViewGrid(view: image, x: 1, y: 6, width: 10, height: 5, grid: 12)
         image.addSubViewGrid(view:imageView, x: 0, y: 0, width: 12, height: 12, grid: 12)
-        self.view.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(self.onPressTap)))
+        self.view.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(self.moveCovid)))
+    }
+ 
+    @IBAction func moveCovid(_ sender: Any) {
+        performSegue(withIdentifier: "suitecodecovid", sender: nil)
     }
     
-    func didAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
-        
-        performSegue(withIdentifier: "codeCovid", sender: nil)
-    }
-    @objc func onPressTap(sender: UITapGestureRecognizer) {
-        didAppear(true)
-    }
+//    @objc func onPressTap(sender: UITapGestureRecognizer) {
+//        didAppear(true)
+//    }
 }

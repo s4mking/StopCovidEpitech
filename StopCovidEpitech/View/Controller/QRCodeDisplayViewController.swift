@@ -9,33 +9,23 @@ import UIKit
 
 class QRCodeDisplayViewController: UIViewController {
    
-    let imgQRCode = UIImage()
+   
 
-
-    override func viewDidLoad() {
+    override func viewDidLoad() {        
+        let imgQRCode = UIImage()
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
+        let swiftLeeOrangeColor = UIColor(red:0.93, green:0.31, blue:0.23, alpha:1.00)
+        let swiftLeeLogo = UIImage(named: "LOGO")!
+        let qrURLImage = URL(string: "https://www.avanderlee.com")?.qrImage(using: swiftLeeOrangeColor, logo: swiftLeeLogo)
+        let imageView = UIImageView()
+        imageView.image = UIImage(ciImage: qrURLImage!)
+//        imageView
+        
+        //self.view = qrURLImage
+        //self.view.addSubview(imageView)
+        self.view.addSubViewGrid(view: imageView, x: 2, y: 2, width: 6, height: 6, grid: 12)
+       // self.view.addSubViewGrid(view: imageView, x: 2, y: 2, width: 6, height: 6, grid: 12)
     }
-    
-    func generateQRCode(from string: String) -> UIImage?
-        {
-            let data = string.data(using: String.Encoding.ascii)
-
-            if let filter = CIFilter(name: "CIQRCodeGenerator")
-            {
-                filter.setValue(data, forKey: "toto")
-
-                guard let qrImage = filter.outputImage else {return nil}
-                let scaleX = self.imgQRCode.frame.size.width / qrImage.extent.size.width
-                let scaleY = self.imgQRCode.frame.size.height / qrImage.extent.size.height
-                let transform = CGAffineTransform(scaleX: scaleX, y: scaleY)
-
-                if let output = filter.outputImage?.transformed(by: transform)
-                {
-                    return UIImage(ciImage: output)
-                }
-            }
-            return nil
-        }
+   
 }

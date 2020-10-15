@@ -6,7 +6,7 @@
 //
 
 import UIKit
-
+import GooglePlaces
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -14,11 +14,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        
+        GMSPlacesClient.provideAPIKey("AIzaSyBBb9bOEPqf7g1NSx-TwAoAy-WdoiY4MvY")
         
         if let rvc = self.window!.rootViewController {
 //            if NSUserDefaults.standardUserDefaults().objectForKey("username") as? String != nil {
-            self.window!.rootViewController = rvc.storyboard!.instantiateViewController(withIdentifier: "DashboardView")
+            self.window!.rootViewController = rvc.storyboard!.instantiateViewController(withIdentifier:"MainNav")
 //            }
         }
         return true
