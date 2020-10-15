@@ -91,10 +91,7 @@ class DashboardViewController: UIViewController {
         stateContainer.layer.cornerRadius = 20
         covid.layer.cornerRadius = 20
         
-        
         track.backgroundColor = .white
-//        container.setGradientBackground(colorOne: .green, colorTwo: .green)
-        container.backgroundColor = green
         code.backgroundColor = .white
         qr.backgroundColor = .white
         covid.backgroundColor = .white
@@ -122,6 +119,7 @@ class DashboardViewController: UIViewController {
         container.addSubViewGrid(view: covid, x: 6.25, y: 7.75, width: 4.75, height: 2.5, grid: 12)
         covid.addSubViewGrid(view: covidText, x: 0, y: 0.2, width: 2, height: 1, grid: 2)
         covid.addSubViewGrid(view: covidImage, x: 0.4, y: 0.8, width: 1.25, height: 1.3, grid: 2)
+        
+        container.setGradientBackground(colorOne: lightGreen!, colorTwo: green!)
     }
-
 }
