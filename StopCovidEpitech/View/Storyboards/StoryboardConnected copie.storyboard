@@ -23,7 +23,7 @@
                         <segue destination="dQr-Qu-x7p" kind="push" identifier="codedisplay" id="s9E-8v-uiU"/>
                         <segue destination="MNU-Ks-fBm" kind="push" identifier="codegenerator" id="xaU-8T-s9d"/>
                         <segue destination="oFP-3H-LOQ" kind="presentation" identifier="state" id="Q1g-Rw-4UL"/>
-                        <segue destination="ZnS-SV-ADI" kind="show" identifier="CodeCovid" id="I48-4x-7t7"/>
+                        <segue destination="ZnS-SV-ADI" kind="push" identifier="CodeCovid" id="I48-4x-7t7"/>
                         <segue destination="K16-vm-bWD" kind="push" identifier="map" id="Eiz-VQ-fKI"/>
                         <segue destination="Rjg-Yf-RfT" kind="push" identifier="toSymptomes" id="sCn-ue-ZgY"/>
                     </connections>
@@ -131,7 +131,7 @@
         <!--State Covid View Controller-->
         <scene sceneID="3lm-Vh-bkI">
             <objects>
-                <viewController storyboardIdentifier="StateCovidView" id="oFP-3H-LOQ" customClass="StateCovidViewController" customModule="StopCovidEpitech" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="oFP-3H-LOQ" customClass="StateCovidViewController" customModule="StopCovidEpitech" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GxG-id-gRN">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
