@@ -9,25 +9,25 @@ import UIKit
 
 class StateCovidViewController: UIViewController {
     
-    var state = (
-        name: "MOYEN",
-        y: 3.5,
-        height: 2,
-        cty: 2,
-        csty: 4.5,
-        containerHeight: 12,
-        trackcontainerY: 13
-    )
-    
 //    var state = (
-//        name: "FORT",
-//        y: 2.5,
-//        height: 1,
-//        cty: 1,
-//        csty: 4,
-//        containerHeight: 10,
-//        trackcontainerY: 9.5
+//        name: "MOYEN",
+//        y: 3.5,
+//        height: 2,
+//        cty: 2,
+//        csty: 4.5,
+//        containerHeight: 12,
+//        trackcontainerY: 13
 //    )
+    
+    var state = (
+        name: "FORT",
+        y: 2.5,
+        height: 1,
+        cty: 1,
+        csty: 4,
+        containerHeight: 10,
+        trackcontainerY: 9.5
+    )
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -35,6 +35,8 @@ class StateCovidViewController: UIViewController {
         let orange = UIColor(hex: "#F6D694ff")
         let darkOrange = UIColor(hex: "#FFAB5Dff")
         let red = UIColor(hex: "#FF5963ff")
+        let lightRed = UIColor(hex: "#FF8D74ff")
+        
         let container = UIView()
         let track = UIView()
         let trackImage = UIImageView()
@@ -105,14 +107,16 @@ class StateCovidViewController: UIViewController {
         track.backgroundColor = .white
         
         if state.name == "MOYEN" {
-            container.backgroundColor = orange
+            
             headText.textColor = darkOrange
             stateText.textColor = darkOrange
             mostFrequentText.text = "Fièvre \n\nFatigue"
             leastFrequentText.text = "Perte de l'odorat ou du gout"
             contentText.text = "Les individus présentant des symptomes légers, mais qui sont par ailleurs en bonne santé, doivent se soigner chez eux."
             contentSecondtText.text = "En moyenne, l'apparition des symptomes chez une personne infectée par le virus prend cinq à six jours. Cependant, ce délai peut s'étendre jusqu'a quatorze jours."
+            
         } else if state.name == "FORT" {
+            
             container.backgroundColor = red
             headText.textColor = red
             stateText.textColor = red
@@ -121,22 +125,38 @@ class StateCovidViewController: UIViewController {
             contentText.text = "A la vue de vos symptomes nous pouvons vous conseiller de :"
             contentSecondtText.text = "Avant de vous rendre chez votre médecin ou dans un établissement de santé, contactez-les toujours par téléphone."
             warnText.text = "consultez immédiatement un professionnel de santé"
+            
         }
         
         self.view.addSubViewGrid(view: container, x: 0, y: 2, width: 12, height: CGFloat(state.containerHeight), grid: 12)
+        
         container.addSubViewGrid(view: head, x: 3, y: 0.5, width: 6, height: 2.5, grid: 12)
-        head.addSubViewGrid(view: headText, x: 3, y: 1, width: 6, height: 2.5, grid: 12)
-        head.addSubViewGrid(view: stateText, x: 1, y: 4, width: 10, height: 2.5, grid: 12)
         container.addSubViewGrid(view: content, x: 1, y: 2, width: 10, height: 7, grid: 12)
         container.addSubViewGrid(view: track, x: 1, y:CGFloat(state.trackcontainerY), width: 10, height: 2, grid: 12)
+        
+        head.addSubViewGrid(view: headText, x: 3, y: 1, width: 6, height: 2.5, grid: 12)
+        head.addSubViewGrid(view: stateText, x: 1, y: 4, width: 10, height: 2.5, grid: 12)
+        
         track.addSubViewGrid(view: trackText, x: 1, y:3, width: 10, height: 6, grid: 12)
         track.addSubViewGrid(view: trackImage, x: 9, y:3, width: 2, height: 5, grid: 12)
+        
         content.addSubViewGrid(view: mostFrequent, x: 1, y: 1, width: 10, height: 1, grid: 12)
         content.addSubViewGrid(view: mostFrequentText, x: 2, y: 2, width: 10, height: CGFloat(state.height), grid: 12)
-        content.addSubViewGrid(view: leastFrequent, x: 1, y: CGFloat(state.y), width: 10, height: 2, grid: 12)
-        leastFrequent.addSubViewGrid(view: leastFrequentText, x: 1, y: 6, width: 10, height: 12, grid: 12)
         content.addSubViewGrid(view: contentText, x: 1, y: CGFloat(state.cty), width: 10, height: 10, grid: 12)
         content.addSubViewGrid(view: contentSecondtText, x: 1, y: CGFloat(state.csty), width: 10, height: 10, grid: 12)
         content.addSubViewGrid(view: warnText, x: 1, y: 2.2, width: 10, height: 10, grid: 12)
+        content.addSubViewGrid(view: leastFrequent, x: 1, y: CGFloat(state.y), width: 10, height: 2, grid: 12)
+        
+        leastFrequent.addSubViewGrid(view: leastFrequentText, x: 1, y: 6, width: 10, height: 12, grid: 12)
+        
+        if state.name == "MOYEN" {
+            
+            container.setGradientBackground(colorOne: orange!, colorTwo: darkOrange!)
+            
+        } else if state.name == "FORT" {
+            
+            container.setGradientBackground(colorOne: lightRed!, colorTwo: red!)
+            
+        }
     }
 }
