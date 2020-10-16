@@ -26,11 +26,17 @@ class CodeCovidViewController: UIViewController {
         paragraphe.textAlignment = .center
         let imageResult = UIImage(named: ("doc"))
         let imageView = UIImageView(image: imageResult)
+        titre.backgroundColor = .red
+        paragraphe.backgroundColor = .blue
+        image.backgroundColor = .green
+        let imageResult = UIImage(named: ("Bitmap"))
+        let imageView = UIImageView(image: imageResult!)
         
         self.view.addSubViewGrid(view: titre, x: 1, y: 0, width: 10, height: 2, grid: 12)
         self.view.addSubViewGrid(view: paragraphe, x: 1, y: 2, width: 10, height: 3, grid: 12)
         self.view.addSubViewGrid(view: image, x: 1, y: 6, width: 10, height: 5, grid: 12)
         image.addSubViewGrid(view:imageView, x: 0, y: 0, width: 12, height: 12, grid: 12)
+
         self.view.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(self.moveCovid)))
     }
  
@@ -41,4 +47,15 @@ class CodeCovidViewController: UIViewController {
 //    @objc func onPressTap(sender: UITapGestureRecognizer) {
 //        didAppear(true)
 //    }
+        self.view.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(self.onPressTap)))
+    }
+    
+    func didAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        performSegue(withIdentifier: "codeCovid", sender: nil)
+    }
+    @objc func onPressTap(sender: UITapGestureRecognizer) {
+        didAppear(true)
+    }
 }

@@ -3,6 +3,7 @@ import UIKit
 class DashboardViewController: UIViewController {
     let navigation = UIView()
     
+
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
@@ -160,7 +161,10 @@ class DashboardViewController: UIViewController {
     @IBAction func moveSymptomes(_ sender: Any) {
         performSegue(withIdentifier: "toSymptomes", sender: nil)
     }
-            
+        
+        container.setGradientBackground(colorOne: lightGreen!, colorTwo: green!)
+    }
+    
     @objc func onPressTap(sender: UITapGestureRecognizer) {
             
             UIView.animate(withDuration: 1, animations: {

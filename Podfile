@@ -9,5 +9,6 @@ target 'StopCovidEpitech' do
   pod "GoogleMaps"
   pod "GooglePlaces"
   pod "SimpleCheckbox"
+
  # Pods for StopCovidEpitech
 end

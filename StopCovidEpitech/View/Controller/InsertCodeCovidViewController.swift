@@ -27,7 +27,9 @@ class InsertCodeCovidViewController: UIViewController {
         paragraphe.frame.size.height = CGFloat(MAXFLOAT)
         paragraphe.sizeToFit()
         paragraphe.textAlignment = .center
- 
+
+        titre.backgroundColor = .red
+        paragraphe.backgroundColor = .blue
        
         
         let myTextField: UITextField = {
@@ -48,15 +50,22 @@ class InsertCodeCovidViewController: UIViewController {
         
         self.view.addSubViewGrid(view: titre, x: 1, y: 0, width: 10, height: 2, grid: 12)
         self.view.addSubViewGrid(view: paragraphe, x: 1, y: 2, width: 10, height: 3, grid: 12)
+
         self.view.addSubViewGrid(view: input, x: 1, y: 8, width: 10, height: 3, grid: 12)
     
         self.view.addSubViewGrid(view: myTextField, x: 1, y: 8, width: 10, height: 2, grid: 12)
+        self.view.addSubViewGrid(view: input, x: 1, y: 6, width: 10, height: 5, grid: 12)
+        
+        
+        view.addSubview(myTextField)
            myTextField.widthAnchor.constraint(equalToConstant: 250).isActive = true
            myTextField.heightAnchor.constraint(equalToConstant: 50).isActive = true
            NSLayoutConstraint(item: myTextField, attribute: .centerX, relatedBy: .equal, toItem: view, attribute: .centerX, multiplier: 1, constant: 0).isActive = true
            NSLayoutConstraint(item: myTextField, attribute: .centerY, relatedBy: .equal, toItem: view, attribute: .centerY, multiplier: 1, constant: -100).isActive = true
 
+
         self.view.addSubViewGrid(view: myButton, x: 1, y: 8, width: 10, height: 2, grid: 12)
+        view.addSubview(myButton)
            myButton.widthAnchor.constraint(equalToConstant: 250).isActive = true
            myButton.heightAnchor.constraint(equalToConstant: 50).isActive = true
            NSLayoutConstraint(item: myButton, attribute: .centerX, relatedBy: .equal, toItem: view, attribute: .centerX, multiplier: 1, constant: 0).isActive = true
@@ -67,7 +76,9 @@ class InsertCodeCovidViewController: UIViewController {
     }
     
     @objc func myButtonPressed() {
+
             performSegue(withIdentifier: "DashboardView", sender: nil)
+
     }
 
 }
