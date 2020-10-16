@@ -22,4 +22,18 @@ extension UIView {
                 self.layer.masksToBounds = true
         
     }
+    
+    func setHorizontalGradientBackground(colorOne: UIColor, colorTwo: UIColor) {
+        
+        let gradientLayer = CAGradientLayer()
+                gradientLayer.colors = [colorOne.cgColor, colorTwo.cgColor]
+                gradientLayer.startPoint = CGPoint(x: 0.0, y: 0.0)
+                gradientLayer.endPoint = CGPoint(x: 1.0, y: 0.0)
+                gradientLayer.locations = [0, 1]
+                gradientLayer.frame = bounds
+
+                layer.insertSublayer(gradientLayer, at: 0)
+                self.layer.masksToBounds = true
+        
+    }
 }
