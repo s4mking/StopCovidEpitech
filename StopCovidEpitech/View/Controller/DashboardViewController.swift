@@ -3,6 +3,20 @@ import UIKit
 class DashboardViewController: UIViewController {
     let navigation = UIView()
     
+
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+//        navigationController.isNavigationBarHidden = false
+        navigationController?.isNavigationBarHidden = true
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+//        navigationController.isNavigationBarHidden = false
+        navigationController?.isNavigationBarHidden = false
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -120,6 +134,33 @@ class DashboardViewController: UIViewController {
         container.addSubViewGrid(view: covid, x: 6.25, y: 7.75, width: 4.75, height: 2.5, grid: 12)
         covid.addSubViewGrid(view: covidText, x: 0, y: 0.2, width: 2, height: 1, grid: 2)
         covid.addSubViewGrid(view: covidImage, x: 0.4, y: 0.8, width: 1.25, height: 1.3, grid: 2)
+        state.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(self.moveState(_:))))
+        code.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(self.moveCovid(_:))))
+        qr.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(self.moveCodeDisplay(_:))))
+        //code.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(self.moveCodeGenerator(_:))))
+        track.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(self.moveMap(_:))))
+        covid.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(self.moveSymptomes(_:))))
+        container.setGradientBackground(colorOne: lightGreen!, colorTwo: green!)
+    }
+ 
+    @IBAction func moveCovid(_ sender: Any) {
+        performSegue(withIdentifier: "CodeCovid", sender: nil)
+    }
+    @IBAction func moveState(_ sender: Any) {
+        performSegue(withIdentifier: "state", sender: nil)
+    }
+    @IBAction func moveCodeDisplay(_ sender: Any) {
+        performSegue(withIdentifier: "codedisplay", sender: nil)
+    }
+    @IBAction func moveCodeGenerator(_ sender: Any) {
+        performSegue(withIdentifier: "codegenerator", sender: nil)
+    }
+    @IBAction func moveMap(_ sender: Any) {
+        performSegue(withIdentifier: "map", sender: nil)
+    }
+    @IBAction func moveSymptomes(_ sender: Any) {
+        performSegue(withIdentifier: "toSymptomes", sender: nil)
+    }
         
         container.setGradientBackground(colorOne: lightGreen!, colorTwo: green!)
     }
