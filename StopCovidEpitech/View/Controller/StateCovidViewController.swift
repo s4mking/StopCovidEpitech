@@ -32,10 +32,13 @@ class StateCovidViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let orange = UIColor(hex: "#F6D694ff")
-        let darkOrange = UIColor(hex: "#FFAB5Dff")
-        let red = UIColor(hex: "#FF5963ff")
-        let lightRed = UIColor(hex: "#FF8D74ff")
+        let orange = UIColor(hex: "#FFEAC4ff")
+        let darkOrange = UIColor(hex: "#FFD5A9ff")
+        let red = UIColor(hex: "#FFA8AFff")
+        let lightRed = UIColor(hex: "#FFC1B9ff")
+        let textRed = UIColor(hex: "#FF5963ff")
+        let textOrange = UIColor(hex: "#FFAB5Dff")
+        
         
         let container = UIView()
         let track = UIView()
@@ -88,12 +91,12 @@ class StateCovidViewController: UIViewController {
         warnText.numberOfLines = 0
         warnText.font = UIFont.systemFont(ofSize: 15, weight: .bold)
         warnText.textAlignment = .center
-        warnText.textColor = red
+        warnText.textColor = textRed
         
         trackText.text = "Se faire dépister"
         trackText.font = UIFont.systemFont(ofSize: 25, weight: .bold)
         trackText.textAlignment = .left
-        trackText.textColor = red
+        trackText.textColor = textRed
         
         trackImage.image = UIImage(named: "Dépistage.png")
         
@@ -108,8 +111,8 @@ class StateCovidViewController: UIViewController {
         
         if state.name == "MOYEN" {
             
-            headText.textColor = darkOrange
-            stateText.textColor = darkOrange
+            headText.textColor = textOrange
+            stateText.textColor = textOrange
             mostFrequentText.text = "Fièvre \n\nFatigue"
             leastFrequentText.text = "Perte de l'odorat ou du gout"
             contentText.text = "Les individus présentant des symptomes légers, mais qui sont par ailleurs en bonne santé, doivent se soigner chez eux."
@@ -118,8 +121,8 @@ class StateCovidViewController: UIViewController {
         } else if state.name == "FORT" {
             
             container.backgroundColor = red
-            headText.textColor = red
-            stateText.textColor = red
+            headText.textColor = textRed
+            stateText.textColor = textRed
             mostFrequentText.text = "Fièvre"
             leastFrequentText.text = "Sensation d'opression ou douleur au niveau de la poitrine"
             contentText.text = "A la vue de vos symptomes nous pouvons vous conseiller de :"

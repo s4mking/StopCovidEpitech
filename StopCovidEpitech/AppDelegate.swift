@@ -20,7 +20,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         if let rvc = self.window!.rootViewController {
 //            if NSUserDefaults.standardUserDefaults().objectForKey("username") as? String != nil {
-            self.window!.rootViewController = rvc.storyboard!.instantiateViewController(withIdentifier:"MainNav")
+
+            self.window!.rootViewController = rvc.storyboard!.instantiateViewController(withIdentifier: "DashboardView")
 
 //            }
         }
