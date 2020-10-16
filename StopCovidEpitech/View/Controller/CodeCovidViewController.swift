@@ -24,8 +24,8 @@ class CodeCovidViewController: UIViewController {
         paragraphe.frame.size.height = CGFloat(MAXFLOAT)
         paragraphe.sizeToFit()
         paragraphe.textAlignment = .center
-        let imageResult = UIImage(named: ("doc"))
-        let imageView = UIImageView(image: imageResult)
+//        let imageResult = UIImage(named: ("doc"))
+//        let imageView = UIImageView(image: imageResult)
         titre.backgroundColor = .red
         paragraphe.backgroundColor = .blue
         image.backgroundColor = .green
@@ -47,8 +47,7 @@ class CodeCovidViewController: UIViewController {
 //    @objc func onPressTap(sender: UITapGestureRecognizer) {
 //        didAppear(true)
 //    }
-        self.view.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(self.onPressTap)))
-    }
+//        self.view.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(self.onPressTap)))
     
     func didAppear(_ animated: Bool) {
         super.viewDidAppear(animated)

@@ -1,16 +1,33 @@
 PODS:
+  - GoogleMaps (4.0.0):
+    - GoogleMaps/Maps (= 4.0.0)
+  - GoogleMaps/Base (4.0.0)
+  - GoogleMaps/Maps (4.0.0):
+    - GoogleMaps/Base
+  - GooglePlaces (4.0.0):
+    - GoogleMaps/Base (= 4.0.0)
   - QRCode (2.0)
+  - SimpleCheckbox (2.1.0)
 
 DEPENDENCIES:
+  - GoogleMaps
+  - GooglePlaces
   - QRCode
+  - SimpleCheckbox
 
 SPEC REPOS:
   trunk:
+    - GoogleMaps
+    - GooglePlaces
     - QRCode
+    - SimpleCheckbox
 
 SPEC CHECKSUMS:
+  GoogleMaps: b7f7fc569a9b354a3af0d9729dbec40957b7d41e
+  GooglePlaces: ca8d4aba09ba79e0a829cf1dca03a41de6a09016
   QRCode: f98a1886c8f37523704a7512a4c0cd45b34c18a4
+  SimpleCheckbox: ddcd433ab8c3a8f57300bebda13151a8f302c7f9
 
-PODFILE CHECKSUM: 4f4cfc464fede2dc7ee4eb37d661fd3655bfb227
+PODFILE CHECKSUM: f43c77aa7f4263d1aaaf2bff9a7ee922786a11a2
 
 COCOAPODS: 1.9.3

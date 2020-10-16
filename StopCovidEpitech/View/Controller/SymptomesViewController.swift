@@ -171,3 +171,4 @@ class SymptomesViewController: UIViewController {
     }
     */
 }
+}       

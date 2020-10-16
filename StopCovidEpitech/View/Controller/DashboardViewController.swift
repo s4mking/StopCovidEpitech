@@ -67,7 +67,7 @@ class DashboardViewController: UIViewController {
         info.textColor = .white
         info.textAlignment = .center
         
-        logoutImage.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(self.onPressTap)))
+//        logoutImage.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(self.onPressTap)))
         
         trackText.text = "Se faire dépister"
         trackText.font = UIFont.systemFont(ofSize: 25, weight: .bold)
@@ -162,15 +162,15 @@ class DashboardViewController: UIViewController {
         performSegue(withIdentifier: "toSymptomes", sender: nil)
     }
         
-        container.setGradientBackground(colorOne: lightGreen!, colorTwo: green!)
+//        container.setGradientBackground(colorOne: lightGreen!, colorTwo: green!)
     }
     
-    @objc func onPressTap(sender: UITapGestureRecognizer) {
-            
-            UIView.animate(withDuration: 1, animations: {
-                self.navigation.frame = CGRect(x: 0, y: 0, width: 2, height: 4)
-                
-            })
-            
-        }
-}
+//    @objc func onPressTap(sender: UITapGestureRecognizer) {
+//
+//            UIView.animate(withDuration: 1, animations: {
+//                self.navigation.frame = CGRect(x: 0, y: 0, width: 2, height: 4)
+//
+//            })
+//
+//        }
+//}
