@@ -9,25 +9,25 @@ import UIKit
 
 class StateCovidViewController: UIViewController {
     
-//    var state = (
-//        name: "MOYEN",
-//        y: 3.5,
-//        height: 2,
-//        cty: 2,
-//        csty: 4.5,
-//        containerHeight: 12,
-//        trackcontainerY: 13
-//    )
-    
     var state = (
-        name: "FORT",
-        y: 2.5,
-        height: 1,
-        cty: 1,
-        csty: 4,
-        containerHeight: 10,
-        trackcontainerY: 9.5
+        name: "MOYEN",
+        y: 3.5,
+        height: 2,
+        cty: 2,
+        csty: 4.5,
+        containerHeight: 12,
+        trackcontainerY: 13
     )
+    
+//    var state = (
+//        name: "FORT",
+//        y: 2.5,
+//        height: 1,
+//        cty: 1,
+//        csty: 4,
+//        containerHeight: 10,
+//        trackcontainerY: 9.5
+//    )
     
     override func viewDidLoad() {
         super.viewDidLoad()

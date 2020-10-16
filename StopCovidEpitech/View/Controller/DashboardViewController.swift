@@ -1,6 +1,7 @@
 import UIKit
 
 class DashboardViewController: UIViewController {
+    let navigation = UIView()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -12,8 +13,6 @@ class DashboardViewController: UIViewController {
         let orange = UIColor(hex: "#F5AE6Dff")
         let red = UIColor(hex: "#F84C4Cff")
         
-        
-        let navigation = UIView()
         let track = UIView()
         let trackText = UILabel()
         let trackImage = UIImageView()
@@ -53,6 +52,8 @@ class DashboardViewController: UIViewController {
         info.font = UIFont.systemFont(ofSize: 20, weight: .bold)
         info.textColor = .white
         info.textAlignment = .center
+        
+        logoutImage.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(self.onPressTap)))
         
         trackText.text = "Se faire dépister"
         trackText.font = UIFont.systemFont(ofSize: 25, weight: .bold)
@@ -122,4 +123,13 @@ class DashboardViewController: UIViewController {
         
         container.setGradientBackground(colorOne: lightGreen!, colorTwo: green!)
     }
+    
+    @objc func onPressTap(sender: UITapGestureRecognizer) {
+            
+            UIView.animate(withDuration: 1, animations: {
+                self.navigation.frame = CGRect(x: 0, y: 0, width: 2, height: 4)
+                
+            })
+            
+        }
 }
