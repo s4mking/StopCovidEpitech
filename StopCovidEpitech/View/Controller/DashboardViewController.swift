@@ -1,6 +1,7 @@
 import UIKit
 
 class DashboardViewController: UIViewController {
+    let navigation = UIView()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -12,8 +13,6 @@ class DashboardViewController: UIViewController {
         let orange = UIColor(hex: "#F5AE6Dff")
         let red = UIColor(hex: "#F84C4Cff")
         
-        
-        let navigation = UIView()
         let track = UIView()
         let trackText = UILabel()
         let trackImage = UIImageView()
@@ -54,6 +53,8 @@ class DashboardViewController: UIViewController {
         info.textColor = .white
         info.textAlignment = .center
         
+        logoutImage.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(self.onPressTap)))
+        
         trackText.text = "Se faire dépister"
         trackText.font = UIFont.systemFont(ofSize: 25, weight: .bold)
         trackText.textColor = green
@@ -91,10 +92,7 @@ class DashboardViewController: UIViewController {
         stateContainer.layer.cornerRadius = 20
         covid.layer.cornerRadius = 20
         
-        
         track.backgroundColor = .white
-//        container.setGradientBackground(colorOne: .green, colorTwo: .green)
-        container.backgroundColor = green
         code.backgroundColor = .white
         qr.backgroundColor = .white
         covid.backgroundColor = .white
@@ -122,6 +120,16 @@ class DashboardViewController: UIViewController {
         container.addSubViewGrid(view: covid, x: 6.25, y: 7.75, width: 4.75, height: 2.5, grid: 12)
         covid.addSubViewGrid(view: covidText, x: 0, y: 0.2, width: 2, height: 1, grid: 2)
         covid.addSubViewGrid(view: covidImage, x: 0.4, y: 0.8, width: 1.25, height: 1.3, grid: 2)
+        
+        container.setGradientBackground(colorOne: lightGreen!, colorTwo: green!)
     }
-
+    
+    @objc func onPressTap(sender: UITapGestureRecognizer) {
+            
+            UIView.animate(withDuration: 1, animations: {
+                self.navigation.frame = CGRect(x: 0, y: 0, width: 2, height: 4)
+                
+            })
+            
+        }
 }
