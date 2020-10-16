@@ -14,6 +14,7 @@
 		7E098D052536DE4B00DDDC1C /* CopyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E098D042536DE4B00DDDC1C /* CopyLabel.swift */; };
 		7E098D0B2536DF1900DDDC1C /* QRScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E098D0A2536DF1900DDDC1C /* QRScannerViewController.swift */; };
 		7E098D0E2536DF4000DDDC1C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E098D0D2536DF4000DDDC1C /* DetailViewController.swift */; };
+		7E80CDE4253879CB00D9F33E /* QRCodeDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E80CDE3253879CB00D9F33E /* QRCodeDisplayViewController.swift */; };
 		7E9A0A9F2536E0EA006FDBDE /* QRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9A0A9E2536E0EA006FDBDE /* QRCode.swift */; };
 		7E9A0B132536F0F8006FDBDE /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9A0B122536F0F8006FDBDE /* Grid.swift */; };
 		7E9A0B1E253725D8006FDBDE /* InsertCodeCovidViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9A0B1D253725D8006FDBDE /* InsertCodeCovidViewController.swift */; };
@@ -44,6 +45,7 @@
 		7E098D042536DE4B00DDDC1C /* CopyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopyLabel.swift; sourceTree = "<group>"; };
 		7E098D0A2536DF1900DDDC1C /* QRScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScannerViewController.swift; sourceTree = "<group>"; };
 		7E098D0D2536DF4000DDDC1C /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		7E80CDE3253879CB00D9F33E /* QRCodeDisplayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeDisplayViewController.swift; sourceTree = "<group>"; };
 		7E9A0A9E2536E0EA006FDBDE /* QRCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCode.swift; sourceTree = "<group>"; };
 		7E9A0B122536F0F8006FDBDE /* Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
 		7E9A0B1D253725D8006FDBDE /* InsertCodeCovidViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertCodeCovidViewController.swift; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 		7E098CF92536551B00DDDC1C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				7E80CDE3253879CB00D9F33E /* QRCodeDisplayViewController.swift */,
 				7EDF7C612535EA6B00191510 /* FirstVisit.swift */,
 				7EDF7C762535EF1D00191510 /* InscriptionViewController.swift */,
 				7EDF7C8F2535F77600191510 /* SymptomesViewController.swift */,
@@ -209,6 +212,7 @@
 				7EDF7C572535EA6B00191510 /* Frameworks */,
 				7EDF7C582535EA6B00191510 /* Resources */,
 				B207A2D482A2E04A163902D1 /* [CP] Embed Pods Frameworks */,
+				41555D0D457E3ECB6ABA5F7E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -266,6 +270,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		41555D0D457E3ECB6ABA5F7E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StopCovidEpitech/Pods-StopCovidEpitech-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StopCovidEpitech/Pods-StopCovidEpitech-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StopCovidEpitech/Pods-StopCovidEpitech-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		91BF9E088EAC052ED22F658A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -315,6 +336,7 @@
 				7E9A0B132536F0F8006FDBDE /* Grid.swift in Sources */,
 				D9B435052537407B003509A4 /* Hex.swift in Sources */,
 				7E098CF4253654B100DDDC1C /* UIViewController+Alert.swift in Sources */,
+				7E80CDE4253879CB00D9F33E /* QRCodeDisplayViewController.swift in Sources */,
 				7E098D0E2536DF4000DDDC1C /* DetailViewController.swift in Sources */,
 				7E098D052536DE4B00DDDC1C /* CopyLabel.swift in Sources */,
 				7EDF7C742535EE7A00191510 /* LoginViewController.swift in Sources */,

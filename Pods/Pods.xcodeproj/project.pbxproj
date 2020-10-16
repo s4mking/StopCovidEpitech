@@ -6,21 +6,75 @@
 	objectVersion = 51;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		0C1885900810601510E0C632060FAF26 /* GooglePlaces */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E215DFB4EAE26646AFED2C4861A55C32 /* Build configuration list for PBXAggregateTarget "GooglePlaces" */;
+			buildPhases = (
+			);
+			dependencies = (
+				9C92C381F332FA5919E56BEDC6EF5DA5 /* PBXTargetDependency */,
+			);
+			name = GooglePlaces;
+		};
+		E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 46921981F609C5BA3CB72EC4EA41299D /* Build configuration list for PBXAggregateTarget "GoogleMaps" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = GoogleMaps;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
+		06698DBDD32087CA3C6FB272B5F428C9 /* Pods-StopCovidEpitech-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E855119415407695C866B4DB6276C3C /* Pods-StopCovidEpitech-dummy.m */; };
 		0A36B7D6CC9E5E3B25175E218634C712 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		0F5FF04504B29F03679FDCD34D3A8585 /* QRCode-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B66D2F053F3C68039027D55CADFE0074 /* QRCode-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2C0615200F09770CA1129FEBBE735C67 /* Pods-StopCovidEpitech-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7181E84AC388412CEE46EA2DAAC23B3E /* Pods-StopCovidEpitech-dummy.m */; };
-		33599E037AEC787CD207083EABF31252 /* QRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA7D68BA7C9FB0324191C0A1F17535E /* QRCode.swift */; };
-		6E400E940CDD68A1E4C911E0B6FA4A03 /* CIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E852B3F74023DCCCFE56D041E954E5 /* CIColorExtension.swift */; };
-		70C6D4BBCF82886FBC8D619EBD3ED6D7 /* QRCode-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E43ACC0B066980A383167BAA229B7B /* QRCode-dummy.m */; };
-		994C0E8FD2D51AFB52C3B5DCEB0CD904 /* CIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4118DAB07F23DCBAFFD8DC4781EEC13A /* CIImageExtension.swift */; };
-		AB37DCB551327C454DF29DECBEF9A098 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		F60C9F0FE4D2F536765A0233FD36534F /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B51DAE73D9E043D396FAFE74FB2A648 /* UIImageViewExtension.swift */; };
-		FA217E60A1CC861AD5DD8CC0ACA6CFC1 /* Pods-StopCovidEpitech-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F4B3CEC0483F07899809C2E9E0F07A5 /* Pods-StopCovidEpitech-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F5FF04504B29F03679FDCD34D3A8585 /* QRCode-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FED15CD56BFD9B63EF325DA3CDEE658F /* QRCode-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2744447A1042C62F82958FCD67C7196D /* SimpleCheckbox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A12276EB324E33F6829A294E45F72D /* SimpleCheckbox-dummy.m */; };
+		33599E037AEC787CD207083EABF31252 /* QRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49702B263A4A5577F7EF61293FBD0107 /* QRCode.swift */; };
+		5D68BCEA2A755046D8BD273530420244 /* SimpleCheckbox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C89339F9987387914C6979DD812D76AF /* SimpleCheckbox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62E41EB7C58CE6A30047B58113C8C46E /* Pods-StopCovidEpitech-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F4CCD25F4FC6FA25F85AEA9310C165E1 /* Pods-StopCovidEpitech-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E400E940CDD68A1E4C911E0B6FA4A03 /* CIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9400423B9FBA02DD9E7FF411A563DC /* CIColorExtension.swift */; };
+		70C6D4BBCF82886FBC8D619EBD3ED6D7 /* QRCode-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 876F034E62B3C3CB3E331F431B965514 /* QRCode-dummy.m */; };
+		994C0E8FD2D51AFB52C3B5DCEB0CD904 /* CIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82464C80F7132B98AEE4E29A96F37CEB /* CIImageExtension.swift */; };
+		9D45AD6B7F0738B1829BED0A855C6708 /* Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16AA3FB8F2FFBFBB2865754F45CE8BD3 /* Checkbox.swift */; };
+		C5AFD107E32B60BB756B15C548078C5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D66921D3525088D9C24A36D3F0776301 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F60C9F0FE4D2F536765A0233FD36534F /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8377D5B4BF825D8BC6CE8C18BF1684F1 /* UIImageViewExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		14A67B552F0E5AEBC9BEF73E8FD597A0 /* PBXContainerItemProxy */ = {
+		160E7DD62917BA806EB3E5ADA59C547D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C1885900810601510E0C632060FAF26;
+			remoteInfo = GooglePlaces;
+		};
+		2C935F33317B974B641A2BE45C00C0B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F26A321F30138437FC03D69FB018CC0A;
+			remoteInfo = SimpleCheckbox;
+		};
+		8277D156885A2A15CBE6947A140EFEB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5B4BBC6DD552AC8943C7E22772FC1D3;
+			remoteInfo = GoogleMaps;
+		};
+		8D1ABD3CB5606DCC5929E62F6062B8C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5B4BBC6DD552AC8943C7E22772FC1D3;
+			remoteInfo = GoogleMaps;
+		};
+		FCCBD2E94F615230706287185AC39F93 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -30,30 +84,50 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		21E852B3F74023DCCCFE56D041E954E5 /* CIColorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CIColorExtension.swift; path = QRCode/CIColorExtension.swift; sourceTree = "<group>"; };
-		23F2EB1CC49A416F63581FF3B155F0E4 /* Pods-StopCovidEpitech-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StopCovidEpitech-frameworks.sh"; sourceTree = "<group>"; };
-		2413B1DB5BEB2831C3D5D544BEAAD8FA /* Pods-StopCovidEpitech.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-StopCovidEpitech.modulemap"; sourceTree = "<group>"; };
-		3B21A0C910FC98D11806884277ABB923 /* Pods-StopCovidEpitech-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StopCovidEpitech-acknowledgements.plist"; sourceTree = "<group>"; };
-		3F4B3CEC0483F07899809C2E9E0F07A5 /* Pods-StopCovidEpitech-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StopCovidEpitech-umbrella.h"; sourceTree = "<group>"; };
-		4118DAB07F23DCBAFFD8DC4781EEC13A /* CIImageExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CIImageExtension.swift; path = QRCode/CIImageExtension.swift; sourceTree = "<group>"; };
-		59FCD0CD76934D9A2CC3159D49FC32DC /* Pods-StopCovidEpitech.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StopCovidEpitech.release.xcconfig"; sourceTree = "<group>"; };
+		0399B6F5AE438F5073068290DB0F8346 /* SimpleCheckbox-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SimpleCheckbox-Info.plist"; sourceTree = "<group>"; };
+		04780D09E35869EA87CF9F263E3D9F48 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		06D8E8A38695B17BD29E2A9B3844F08B /* QRCode-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QRCode-prefix.pch"; sourceTree = "<group>"; };
+		10682F1962C9CDED04ADD8A3D774D35D /* Pods-StopCovidEpitech.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StopCovidEpitech.debug.xcconfig"; sourceTree = "<group>"; };
+		16AA3FB8F2FFBFBB2865754F45CE8BD3 /* Checkbox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Checkbox.swift; path = checkbox/Checkbox.swift; sourceTree = "<group>"; };
+		293D35A672A14F52CDC1A06D9A7B5456 /* SimpleCheckbox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SimpleCheckbox.modulemap; sourceTree = "<group>"; };
+		2EFC18DACE30D18FF466A5004E8AA7F3 /* GooglePlaces.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GooglePlaces.release.xcconfig; sourceTree = "<group>"; };
+		36E30F4B98EFB3E8A118274A4B15C896 /* QRCode-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QRCode-Info.plist"; sourceTree = "<group>"; };
+		39F1A0AE8A01B577D4B8EAB8EEC1D1A8 /* SimpleCheckbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SimpleCheckbox.framework; path = SimpleCheckbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F9400423B9FBA02DD9E7FF411A563DC /* CIColorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CIColorExtension.swift; path = QRCode/CIColorExtension.swift; sourceTree = "<group>"; };
+		49702B263A4A5577F7EF61293FBD0107 /* QRCode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCode.swift; path = QRCode/QRCode.swift; sourceTree = "<group>"; };
+		524F1F3ABE1D8FA223A4E62809B133EF /* SimpleCheckbox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleCheckbox-prefix.pch"; sourceTree = "<group>"; };
+		5379A48C339E5109E1160534734C3EF0 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		56A12276EB324E33F6829A294E45F72D /* SimpleCheckbox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SimpleCheckbox-dummy.m"; sourceTree = "<group>"; };
+		5B958FC500BC80AAF7FB7F766CE33192 /* Pods-StopCovidEpitech.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-StopCovidEpitech.modulemap"; sourceTree = "<group>"; };
+		5BF9AAF1CFB0F90363C317AD65BE338C /* SimpleCheckbox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SimpleCheckbox.debug.xcconfig; sourceTree = "<group>"; };
 		5C871E3AA3292278FEE126AAFAEC60A5 /* QRCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QRCode.framework; path = QRCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6B51DAE73D9E043D396FAFE74FB2A648 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIImageViewExtension.swift; path = QRCode/UIImageViewExtension.swift; sourceTree = "<group>"; };
-		7181E84AC388412CEE46EA2DAAC23B3E /* Pods-StopCovidEpitech-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StopCovidEpitech-dummy.m"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		79E43ACC0B066980A383167BAA229B7B /* QRCode-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QRCode-dummy.m"; sourceTree = "<group>"; };
-		7C820170D71711A59B5C9E92868EA267 /* Pods-StopCovidEpitech-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-StopCovidEpitech-acknowledgements.markdown"; sourceTree = "<group>"; };
-		830B577A68552A819BCB0F5EFED3606E /* QRCode-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QRCode-prefix.pch"; sourceTree = "<group>"; };
-		9CA7D68BA7C9FB0324191C0A1F17535E /* QRCode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCode.swift; path = QRCode/QRCode.swift; sourceTree = "<group>"; };
-		9D53DC5FC017ACDBD3D93DEFF7D0DE9B /* Pods-StopCovidEpitech.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StopCovidEpitech.debug.xcconfig"; sourceTree = "<group>"; };
+		77727BA2B80766E108D54C4E5B651795 /* Pods-StopCovidEpitech-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StopCovidEpitech-frameworks.sh"; sourceTree = "<group>"; };
+		82464C80F7132B98AEE4E29A96F37CEB /* CIImageExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CIImageExtension.swift; path = QRCode/CIImageExtension.swift; sourceTree = "<group>"; };
+		8377D5B4BF825D8BC6CE8C18BF1684F1 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIImageViewExtension.swift; path = QRCode/UIImageViewExtension.swift; sourceTree = "<group>"; };
+		876F034E62B3C3CB3E331F431B965514 /* QRCode-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QRCode-dummy.m"; sourceTree = "<group>"; };
+		8EF99E7750C1C2B291610E2FD5EC68E1 /* QRCode.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QRCode.modulemap; sourceTree = "<group>"; };
+		94DA7BCDF7A3B35C136E8857C60A695B /* Pods-StopCovidEpitech-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-StopCovidEpitech-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B2D6CADDE7395C5D1C013DC17F460DA7 /* QRCode.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QRCode.modulemap; sourceTree = "<group>"; };
-		B66D2F053F3C68039027D55CADFE0074 /* QRCode-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QRCode-umbrella.h"; sourceTree = "<group>"; };
+		9E855119415407695C866B4DB6276C3C /* Pods-StopCovidEpitech-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StopCovidEpitech-dummy.m"; sourceTree = "<group>"; };
+		A4223C9E7B5CF860258FA2832CE71452 /* GoogleMaps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleMaps.debug.xcconfig; sourceTree = "<group>"; };
+		A644C19E12463EAB2A3E879B26EC4926 /* QRCode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QRCode.debug.xcconfig; sourceTree = "<group>"; };
+		AB5119C96EC61921D017A709AAF6351B /* GooglePlaces.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GooglePlaces.debug.xcconfig; sourceTree = "<group>"; };
+		B424CBEDD5326627FA06437FB9647FDF /* Pods-StopCovidEpitech-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StopCovidEpitech-resources.sh"; sourceTree = "<group>"; };
+		B5C4F41B02E532D550C67D9D032C61EC /* Pods-StopCovidEpitech-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StopCovidEpitech-acknowledgements.plist"; sourceTree = "<group>"; };
 		BAFEDF304F01C9A905F2D6136FB57C2D /* Pods_StopCovidEpitech.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_StopCovidEpitech.framework; path = "Pods-StopCovidEpitech.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BBF619E510FCCDE70198414060345E79 /* QRCode-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QRCode-Info.plist"; sourceTree = "<group>"; };
-		D3B52230831502821EE8BA317810E185 /* QRCode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QRCode.release.xcconfig; sourceTree = "<group>"; };
-		DE75FB0CD453D904A3A440E2331E585B /* Pods-StopCovidEpitech-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StopCovidEpitech-Info.plist"; sourceTree = "<group>"; };
-		F16020770928DCF8BB93DEEF87909B5A /* QRCode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QRCode.debug.xcconfig; sourceTree = "<group>"; };
+		BB2FA184BE5811679ECF465803CE161E /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
+		BBFB94D9ACE0E8D2AC53EE242C63F584 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		C89339F9987387914C6979DD812D76AF /* SimpleCheckbox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleCheckbox-umbrella.h"; sourceTree = "<group>"; };
+		D424AB16A55EB0F391387CAA8E0BDEAD /* QRCode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QRCode.release.xcconfig; sourceTree = "<group>"; };
+		D80C0E8E1ECB2C8FF0B2E65FEA35BC2A /* Pods-StopCovidEpitech-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StopCovidEpitech-Info.plist"; sourceTree = "<group>"; };
+		D9CE5906D1F8AA0F598D2F68B063CFDB /* GoogleMaps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleMaps.release.xcconfig; sourceTree = "<group>"; };
+		E8BC04302F808450C1B6E466BD22A621 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		EFF80D9865A475EF2EF16A85DF94C09C /* Pods-StopCovidEpitech.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StopCovidEpitech.release.xcconfig"; sourceTree = "<group>"; };
+		F4CCD25F4FC6FA25F85AEA9310C165E1 /* Pods-StopCovidEpitech-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StopCovidEpitech-umbrella.h"; sourceTree = "<group>"; };
+		F5C94C715B4F9B814BECC65DF3410E58 /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
+		F77D8A2884868AD8244F40F23A3FDB7E /* SimpleCheckbox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SimpleCheckbox.release.xcconfig; sourceTree = "<group>"; };
+		FED15CD56BFD9B63EF325DA3CDEE658F /* QRCode-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QRCode-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,49 +139,96 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3237C377651F8834A9AA475D073653C6 /* Frameworks */ = {
+		D2F54C0DC0BBCFD7CEABC94B606C0050 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB37DCB551327C454DF29DECBEF9A098 /* Foundation.framework in Frameworks */,
+				C5AFD107E32B60BB756B15C548078C5D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3893276839DC677C6591DC180F41002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D66921D3525088D9C24A36D3F0776301 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		15C65DD375BF0C0C070C786C3073200C /* Targets Support Files */ = {
+		04B39DDB90164B5EA4FCF9801D5E5ECA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				4B704A47945EFD3B9EE611DCDD454E16 /* Pods-StopCovidEpitech */,
+				5379A48C339E5109E1160534734C3EF0 /* GoogleMaps.bundle */,
 			);
-			name = "Targets Support Files";
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		370BEA22E94C48D8C8D191D6C1FCCD41 /* Products */ = {
+		087B6ABE90309836315C9C99F42C1D9D /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				BAFEDF304F01C9A905F2D6136FB57C2D /* Pods_StopCovidEpitech.framework */,
 				5C871E3AA3292278FEE126AAFAEC60A5 /* QRCode.framework */,
+				39F1A0AE8A01B577D4B8EAB8EEC1D1A8 /* SimpleCheckbox.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4B704A47945EFD3B9EE611DCDD454E16 /* Pods-StopCovidEpitech */ = {
+		113DC8197D6DB958DD5F22896BB74887 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				2413B1DB5BEB2831C3D5D544BEAAD8FA /* Pods-StopCovidEpitech.modulemap */,
-				7C820170D71711A59B5C9E92868EA267 /* Pods-StopCovidEpitech-acknowledgements.markdown */,
-				3B21A0C910FC98D11806884277ABB923 /* Pods-StopCovidEpitech-acknowledgements.plist */,
-				7181E84AC388412CEE46EA2DAAC23B3E /* Pods-StopCovidEpitech-dummy.m */,
-				23F2EB1CC49A416F63581FF3B155F0E4 /* Pods-StopCovidEpitech-frameworks.sh */,
-				DE75FB0CD453D904A3A440E2331E585B /* Pods-StopCovidEpitech-Info.plist */,
-				3F4B3CEC0483F07899809C2E9E0F07A5 /* Pods-StopCovidEpitech-umbrella.h */,
-				9D53DC5FC017ACDBD3D93DEFF7D0DE9B /* Pods-StopCovidEpitech.debug.xcconfig */,
-				59FCD0CD76934D9A2CC3159D49FC32DC /* Pods-StopCovidEpitech.release.xcconfig */,
+				AB5119C96EC61921D017A709AAF6351B /* GooglePlaces.debug.xcconfig */,
+				2EFC18DACE30D18FF466A5004E8AA7F3 /* GooglePlaces.release.xcconfig */,
 			);
-			name = "Pods-StopCovidEpitech";
-			path = "Target Support Files/Pods-StopCovidEpitech";
+			name = "Support Files";
+			path = "../Target Support Files/GooglePlaces";
+			sourceTree = "<group>";
+		};
+		2621FA078098EA0A19A36C3D96389B90 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4223C9E7B5CF860258FA2832CE71452 /* GoogleMaps.debug.xcconfig */,
+				D9CE5906D1F8AA0F598D2F68B063CFDB /* GoogleMaps.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleMaps";
+			sourceTree = "<group>";
+		};
+		28992D913E027DF35FBF4E4D80B36834 /* GooglePlaces */ = {
+			isa = PBXGroup;
+			children = (
+				6A55EB64D8277F3B60BAEA7D1F34F71E /* Frameworks */,
+				C354159FE0AEE6551D94176C8DFF49F3 /* Resources */,
+				113DC8197D6DB958DD5F22896BB74887 /* Support Files */,
+			);
+			name = GooglePlaces;
+			path = GooglePlaces;
+			sourceTree = "<group>";
+		};
+		2CAE67B57D358B0BBA93D10208467D84 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				D45AE71BC034E828059F1A0939BB8BCF /* Frameworks */,
+				04B39DDB90164B5EA4FCF9801D5E5ECA /* Resources */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		388791CD3D8B524B3BAA371B92133B45 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8EF99E7750C1C2B291610E2FD5EC68E1 /* QRCode.modulemap */,
+				876F034E62B3C3CB3E331F431B965514 /* QRCode-dummy.m */,
+				36E30F4B98EFB3E8A118274A4B15C896 /* QRCode-Info.plist */,
+				06D8E8A38695B17BD29E2A9B3844F08B /* QRCode-prefix.pch */,
+				FED15CD56BFD9B63EF325DA3CDEE658F /* QRCode-umbrella.h */,
+				A644C19E12463EAB2A3E879B26EC4926 /* QRCode.debug.xcconfig */,
+				D424AB16A55EB0F391387CAA8E0BDEAD /* QRCode.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/QRCode";
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -118,40 +239,98 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		64788586D411DE81909B4E40FE831968 /* QRCode */ = {
+		642BAC248CD225CCC6D536D33DAAA6E5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				21E852B3F74023DCCCFE56D041E954E5 /* CIColorExtension.swift */,
-				4118DAB07F23DCBAFFD8DC4781EEC13A /* CIImageExtension.swift */,
-				9CA7D68BA7C9FB0324191C0A1F17535E /* QRCode.swift */,
-				6B51DAE73D9E043D396FAFE74FB2A648 /* UIImageViewExtension.swift */,
-				A42BC84421C0A706E5C06867614C9930 /* Support Files */,
+				E8BC04302F808450C1B6E466BD22A621 /* GoogleMapsBase.framework */,
 			);
-			name = QRCode;
-			path = QRCode;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		A42BC84421C0A706E5C06867614C9930 /* Support Files */ = {
+		6A55EB64D8277F3B60BAEA7D1F34F71E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B2D6CADDE7395C5D1C013DC17F460DA7 /* QRCode.modulemap */,
-				79E43ACC0B066980A383167BAA229B7B /* QRCode-dummy.m */,
-				BBF619E510FCCDE70198414060345E79 /* QRCode-Info.plist */,
-				830B577A68552A819BCB0F5EFED3606E /* QRCode-prefix.pch */,
-				B66D2F053F3C68039027D55CADFE0074 /* QRCode-umbrella.h */,
-				F16020770928DCF8BB93DEEF87909B5A /* QRCode.debug.xcconfig */,
-				D3B52230831502821EE8BA317810E185 /* QRCode.release.xcconfig */,
+				BB2FA184BE5811679ECF465803CE161E /* GooglePlaces.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6BE175763810C5DE075539ACE4610431 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				293D35A672A14F52CDC1A06D9A7B5456 /* SimpleCheckbox.modulemap */,
+				56A12276EB324E33F6829A294E45F72D /* SimpleCheckbox-dummy.m */,
+				0399B6F5AE438F5073068290DB0F8346 /* SimpleCheckbox-Info.plist */,
+				524F1F3ABE1D8FA223A4E62809B133EF /* SimpleCheckbox-prefix.pch */,
+				C89339F9987387914C6979DD812D76AF /* SimpleCheckbox-umbrella.h */,
+				5BF9AAF1CFB0F90363C317AD65BE338C /* SimpleCheckbox.debug.xcconfig */,
+				F77D8A2884868AD8244F40F23A3FDB7E /* SimpleCheckbox.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/QRCode";
+			path = "../Target Support Files/SimpleCheckbox";
 			sourceTree = "<group>";
 		};
-		C4DA4FC55959F857A8FC9A4FCB505CD6 /* Pods */ = {
+		709B71AA5653C3E557609FC69F887891 /* GoogleMaps */ = {
 			isa = PBXGroup;
 			children = (
-				64788586D411DE81909B4E40FE831968 /* QRCode */,
+				9B4289A94BAECF4A7CD76533329F34D6 /* Base */,
+				2CAE67B57D358B0BBA93D10208467D84 /* Maps */,
+				2621FA078098EA0A19A36C3D96389B90 /* Support Files */,
 			);
-			name = Pods;
+			name = GoogleMaps;
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		732DA5EFCAE7A0E8C796F35F72D803D2 /* Pods-StopCovidEpitech */ = {
+			isa = PBXGroup;
+			children = (
+				5B958FC500BC80AAF7FB7F766CE33192 /* Pods-StopCovidEpitech.modulemap */,
+				94DA7BCDF7A3B35C136E8857C60A695B /* Pods-StopCovidEpitech-acknowledgements.markdown */,
+				B5C4F41B02E532D550C67D9D032C61EC /* Pods-StopCovidEpitech-acknowledgements.plist */,
+				9E855119415407695C866B4DB6276C3C /* Pods-StopCovidEpitech-dummy.m */,
+				77727BA2B80766E108D54C4E5B651795 /* Pods-StopCovidEpitech-frameworks.sh */,
+				D80C0E8E1ECB2C8FF0B2E65FEA35BC2A /* Pods-StopCovidEpitech-Info.plist */,
+				B424CBEDD5326627FA06437FB9647FDF /* Pods-StopCovidEpitech-resources.sh */,
+				F4CCD25F4FC6FA25F85AEA9310C165E1 /* Pods-StopCovidEpitech-umbrella.h */,
+				10682F1962C9CDED04ADD8A3D774D35D /* Pods-StopCovidEpitech.debug.xcconfig */,
+				EFF80D9865A475EF2EF16A85DF94C09C /* Pods-StopCovidEpitech.release.xcconfig */,
+			);
+			name = "Pods-StopCovidEpitech";
+			path = "Target Support Files/Pods-StopCovidEpitech";
+			sourceTree = "<group>";
+		};
+		8FB7F028A121DD08ABF7F014BCD5DCF9 /* SimpleCheckbox */ = {
+			isa = PBXGroup;
+			children = (
+				16AA3FB8F2FFBFBB2865754F45CE8BD3 /* Checkbox.swift */,
+				6BE175763810C5DE075539ACE4610431 /* Support Files */,
+			);
+			name = SimpleCheckbox;
+			path = SimpleCheckbox;
+			sourceTree = "<group>";
+		};
+		9B4289A94BAECF4A7CD76533329F34D6 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				642BAC248CD225CCC6D536D33DAAA6E5 /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		C354159FE0AEE6551D94176C8DFF49F3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F5C94C715B4F9B814BECC65DF3410E58 /* GooglePlaces.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C5F24D946F0EA7CA89F7897A72D6B924 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				732DA5EFCAE7A0E8C796F35F72D803D2 /* Pods-StopCovidEpitech */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -159,9 +338,9 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				C4DA4FC55959F857A8FC9A4FCB505CD6 /* Pods */,
-				370BEA22E94C48D8C8D191D6C1FCCD41 /* Products */,
-				15C65DD375BF0C0C070C786C3073200C /* Targets Support Files */,
+				E81715EFD2ACDA5037010A35AEFAF3EE /* Pods */,
+				087B6ABE90309836315C9C99F42C1D9D /* Products */,
+				C5F24D946F0EA7CA89F7897A72D6B924 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -171,6 +350,39 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D45AE71BC034E828059F1A0939BB8BCF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BBFB94D9ACE0E8D2AC53EE242C63F584 /* GoogleMaps.framework */,
+				04780D09E35869EA87CF9F263E3D9F48 /* GoogleMapsCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E0C9ACEC30C292495E1C5171E56DE728 /* QRCode */ = {
+			isa = PBXGroup;
+			children = (
+				3F9400423B9FBA02DD9E7FF411A563DC /* CIColorExtension.swift */,
+				82464C80F7132B98AEE4E29A96F37CEB /* CIImageExtension.swift */,
+				49702B263A4A5577F7EF61293FBD0107 /* QRCode.swift */,
+				8377D5B4BF825D8BC6CE8C18BF1684F1 /* UIImageViewExtension.swift */,
+				388791CD3D8B524B3BAA371B92133B45 /* Support Files */,
+			);
+			name = QRCode;
+			path = QRCode;
+			sourceTree = "<group>";
+		};
+		E81715EFD2ACDA5037010A35AEFAF3EE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				709B71AA5653C3E557609FC69F887891 /* GoogleMaps */,
+				28992D913E027DF35FBF4E4D80B36834 /* GooglePlaces */,
+				E0C9ACEC30C292495E1C5171E56DE728 /* QRCode */,
+				8FB7F028A121DD08ABF7F014BCD5DCF9 /* SimpleCheckbox */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,11 +396,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A98E056B2DC76A897802A46494CF78D2 /* Headers */ = {
+		7B40809735F9B0D7EABC3BE3E6D2B4D2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA217E60A1CC861AD5DD8CC0ACA6CFC1 /* Pods-StopCovidEpitech-umbrella.h in Headers */,
+				62E41EB7C58CE6A30047B58113C8C46E /* Pods-StopCovidEpitech-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E952BA2EEBA15D6F202E0A18F30D0A41 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D68BCEA2A755046D8BD273530420244 /* SimpleCheckbox-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,17 +417,20 @@
 /* Begin PBXNativeTarget section */
 		B4F662FF813EAC5A53F74C344C521D9C /* Pods-StopCovidEpitech */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13333B9EAD5DAAD958C55BFE0A1F7E29 /* Build configuration list for PBXNativeTarget "Pods-StopCovidEpitech" */;
+			buildConfigurationList = 81E6599909A2EDBD89957AA85583191C /* Build configuration list for PBXNativeTarget "Pods-StopCovidEpitech" */;
 			buildPhases = (
-				A98E056B2DC76A897802A46494CF78D2 /* Headers */,
-				0AC15CFE8769846686ED19A304352842 /* Sources */,
-				3237C377651F8834A9AA475D073653C6 /* Frameworks */,
-				B2BF035C0D04D0C564487AB54321559E /* Resources */,
+				7B40809735F9B0D7EABC3BE3E6D2B4D2 /* Headers */,
+				272CDE7C41322E49B77176CC6A72BB84 /* Sources */,
+				F3893276839DC677C6591DC180F41002 /* Frameworks */,
+				F8FB2F9F430D4564B70CE8F56CEDC30C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				641C9705D4DD2134C5C62CF6B928FEFD /* PBXTargetDependency */,
+				8A07ED8F89BBA96580E39EB7A403EA4B /* PBXTargetDependency */,
+				76F6B9AF0CA426334962D82E2C8F496B /* PBXTargetDependency */,
+				F7711F90D1428A769BBBE44FDC6CBFDB /* PBXTargetDependency */,
+				6BF1F2E7D173B7283368B3BB0F52C6EF /* PBXTargetDependency */,
 			);
 			name = "Pods-StopCovidEpitech";
 			productName = "Pods-StopCovidEpitech";
@@ -232,6 +455,24 @@
 			productReference = 5C871E3AA3292278FEE126AAFAEC60A5 /* QRCode.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		F26A321F30138437FC03D69FB018CC0A /* SimpleCheckbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 841A0080888A622A69AD866366D95D96 /* Build configuration list for PBXNativeTarget "SimpleCheckbox" */;
+			buildPhases = (
+				E952BA2EEBA15D6F202E0A18F30D0A41 /* Headers */,
+				A50050EE8AB58ABEC3D355B330998BC0 /* Sources */,
+				D2F54C0DC0BBCFD7CEABC94B606C0050 /* Frameworks */,
+				572D84B95AD38D2B050302493A1899E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleCheckbox;
+			productName = SimpleCheckbox;
+			productReference = 39F1A0AE8A01B577D4B8EAB8EEC1D1A8 /* SimpleCheckbox.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -250,18 +491,21 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 370BEA22E94C48D8C8D191D6C1FCCD41 /* Products */;
+			productRefGroup = 087B6ABE90309836315C9C99F42C1D9D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */,
+				0C1885900810601510E0C632060FAF26 /* GooglePlaces */,
 				B4F662FF813EAC5A53F74C344C521D9C /* Pods-StopCovidEpitech */,
 				CEF561CEEBFA5EBBDA6E240FF1B20CEC /* QRCode */,
+				F26A321F30138437FC03D69FB018CC0A /* SimpleCheckbox */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B2BF035C0D04D0C564487AB54321559E /* Resources */ = {
+		572D84B95AD38D2B050302493A1899E8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -275,14 +519,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F8FB2F9F430D4564B70CE8F56CEDC30C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0AC15CFE8769846686ED19A304352842 /* Sources */ = {
+		272CDE7C41322E49B77176CC6A72BB84 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C0615200F09770CA1129FEBBE735C67 /* Pods-StopCovidEpitech-dummy.m in Sources */,
+				06698DBDD32087CA3C6FB272B5F428C9 /* Pods-StopCovidEpitech-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A50050EE8AB58ABEC3D355B330998BC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D45AD6B7F0738B1829BED0A855C6708 /* Checkbox.swift in Sources */,
+				2744447A1042C62F82958FCD67C7196D /* SimpleCheckbox-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,18 +561,95 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		641C9705D4DD2134C5C62CF6B928FEFD /* PBXTargetDependency */ = {
+		6BF1F2E7D173B7283368B3BB0F52C6EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SimpleCheckbox;
+			target = F26A321F30138437FC03D69FB018CC0A /* SimpleCheckbox */;
+			targetProxy = 2C935F33317B974B641A2BE45C00C0B7 /* PBXContainerItemProxy */;
+		};
+		76F6B9AF0CA426334962D82E2C8F496B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GooglePlaces;
+			target = 0C1885900810601510E0C632060FAF26 /* GooglePlaces */;
+			targetProxy = 160E7DD62917BA806EB3E5ADA59C547D /* PBXContainerItemProxy */;
+		};
+		8A07ED8F89BBA96580E39EB7A403EA4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleMaps;
+			target = E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */;
+			targetProxy = 8277D156885A2A15CBE6947A140EFEB8 /* PBXContainerItemProxy */;
+		};
+		9C92C381F332FA5919E56BEDC6EF5DA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleMaps;
+			target = E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */;
+			targetProxy = 8D1ABD3CB5606DCC5929E62F6062B8C6 /* PBXContainerItemProxy */;
+		};
+		F7711F90D1428A769BBBE44FDC6CBFDB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = QRCode;
 			target = CEF561CEEBFA5EBBDA6E240FF1B20CEC /* QRCode */;
-			targetProxy = 14A67B552F0E5AEBC9BEF73E8FD597A0 /* PBXContainerItemProxy */;
+			targetProxy = FCCBD2E94F615230706287185AC39F93 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		54C9D7D5CC26E8D190F7E05227813C99 /* Release */ = {
+		15869E49412CF10188463CAD7AB6A094 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 59FCD0CD76934D9A2CC3159D49FC32DC /* Pods-StopCovidEpitech.release.xcconfig */;
+			baseConfigurationReference = F77D8A2884868AD8244F40F23A3FDB7E /* SimpleCheckbox.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SimpleCheckbox/SimpleCheckbox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SimpleCheckbox/SimpleCheckbox-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SimpleCheckbox/SimpleCheckbox.modulemap";
+				PRODUCT_MODULE_NAME = SimpleCheckbox;
+				PRODUCT_NAME = SimpleCheckbox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		32DB5D5C5FEDFCC50CB6D67FFD6DD388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EFC18DACE30D18FF466A5004E8AA7F3 /* GooglePlaces.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		69FF9682152136FDADE1FE5A7690265A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFF80D9865A475EF2EF16A85DF94C09C /* Pods-StopCovidEpitech.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -348,9 +685,92 @@
 			};
 			name = Release;
 		};
-		93C974D070F1F50EF6B51ADD2823DC8E /* Debug */ = {
+		6CCBCE52FD46D89565DEB676446DB083 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9D53DC5FC017ACDBD3D93DEFF7D0DE9B /* Pods-StopCovidEpitech.debug.xcconfig */;
+			baseConfigurationReference = A4223C9E7B5CF860258FA2832CE71452 /* GoogleMaps.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7B52AED984E5F96408001A1A7FFB4B3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9CE5906D1F8AA0F598D2F68B063CFDB /* GoogleMaps.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F0FCDF92100862819EB2C14C023F161 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A644C19E12463EAB2A3E879B26EC4926 /* QRCode.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QRCode/QRCode-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QRCode/QRCode-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/QRCode/QRCode.modulemap";
+				PRODUCT_MODULE_NAME = QRCode;
+				PRODUCT_NAME = QRCode;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A693BE4584D485CA358D8777FEE590CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB5119C96EC61921D017A709AAF6351B /* GooglePlaces.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C0B1482E2E1692EF9C5A1325B4781C02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10682F1962C9CDED04ADD8A3D774D35D /* Pods-StopCovidEpitech.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -379,40 +799,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		9F0FCDF92100862819EB2C14C023F161 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F16020770928DCF8BB93DEEF87909B5A /* QRCode.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/QRCode/QRCode-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/QRCode/QRCode-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/QRCode/QRCode.modulemap";
-				PRODUCT_MODULE_NAME = QRCode;
-				PRODUCT_NAME = QRCode;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -482,7 +868,7 @@
 		};
 		F460E10164BA30BA2F87EE68773C3145 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D3B52230831502821EE8BA317810E185 /* QRCode.release.xcconfig */;
+			baseConfigurationReference = D424AB16A55EB0F391387CAA8E0BDEAD /* QRCode.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -514,6 +900,41 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		F8D0D20403B935F21F8C6F525E6704A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BF9AAF1CFB0F90363C317AD65BE338C /* SimpleCheckbox.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SimpleCheckbox/SimpleCheckbox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SimpleCheckbox/SimpleCheckbox-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SimpleCheckbox/SimpleCheckbox.modulemap";
+				PRODUCT_MODULE_NAME = SimpleCheckbox;
+				PRODUCT_NAME = SimpleCheckbox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		FBC00D549F0F93309F421C94639D1F1B /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -592,11 +1013,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13333B9EAD5DAAD958C55BFE0A1F7E29 /* Build configuration list for PBXNativeTarget "Pods-StopCovidEpitech" */ = {
+		46921981F609C5BA3CB72EC4EA41299D /* Build configuration list for PBXAggregateTarget "GoogleMaps" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				93C974D070F1F50EF6B51ADD2823DC8E /* Debug */,
-				54C9D7D5CC26E8D190F7E05227813C99 /* Release */,
+				6CCBCE52FD46D89565DEB676446DB083 /* Debug */,
+				7B52AED984E5F96408001A1A7FFB4B3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -606,6 +1027,33 @@
 			buildConfigurations = (
 				FBC00D549F0F93309F421C94639D1F1B /* Debug */,
 				EAD0866E91F91D1A1842C8BEE2BF43A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81E6599909A2EDBD89957AA85583191C /* Build configuration list for PBXNativeTarget "Pods-StopCovidEpitech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0B1482E2E1692EF9C5A1325B4781C02 /* Debug */,
+				69FF9682152136FDADE1FE5A7690265A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		841A0080888A622A69AD866366D95D96 /* Build configuration list for PBXNativeTarget "SimpleCheckbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8D0D20403B935F21F8C6F525E6704A7 /* Debug */,
+				15869E49412CF10188463CAD7AB6A094 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E215DFB4EAE26646AFED2C4861A55C32 /* Build configuration list for PBXAggregateTarget "GooglePlaces" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A693BE4584D485CA358D8777FEE590CB /* Debug */,
+				32DB5D5C5FEDFCC50CB6D67FFD6DD388 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
